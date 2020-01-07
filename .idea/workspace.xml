@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="27560cf9-406f-4bfb-84d3-088a056890be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/img/allan.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AreaPersonale/AreaPersonale.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AreaPersonale/AreaPersonale.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/Utente.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/Utente.json" afterDir="false" />
-    </list>
+    <list default="true" id="27560cf9-406f-4bfb-84d3-088a056890be" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -246,16 +241,15 @@
       <updated>1578142476929</updated>
       <workItem from="1578142478635" duration="24414000" />
       <workItem from="1578170460887" duration="799000" />
-      <workItem from="1578322104462" duration="17153000" />
+      <workItem from="1578322104462" duration="17752000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42366000" />
+    <option name="totallyTimeSpent" value="42965000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13417052" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
