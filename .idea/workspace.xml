@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="27560cf9-406f-4bfb-84d3-088a056890be" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/cercaFilm/cercaFilm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cercaFilm/cercaFilm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/mainLayout/Header/Nav-logout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mainLayout/Header/Nav-logout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/mainLayout/Header/NavLogin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mainLayout/Header/NavLogin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/mainLayout/MainTemplate/MainTemplate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mainLayout/MainTemplate/MainTemplate.js" afterDir="false" />
-    </list>
+    <list default="true" id="27560cf9-406f-4bfb-84d3-088a056890be" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -58,7 +52,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/mainLayout/Header/Header.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
@@ -66,6 +60,15 @@
               <folding>
                 <element signature="e#0#97#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -121,7 +124,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/components/mainLayou/Header/Header.js" />
         <option value="$PROJECT_DIR$/src/components/mainLayou/Footer/Footer.js" />
-        <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/css/components/schedaFilm/SchedaFilm.js" />
         <option value="$PROJECT_DIR$/src/components/schedaFilm/schedaFilm.js" />
         <option value="$PROJECT_DIR$/src/data/Film.json" />
@@ -144,10 +146,11 @@
         <option value="$PROJECT_DIR$/src/components/home/Home.js" />
         <option value="$PROJECT_DIR$/src/components/mainLayout/MainTemplate/MainTemplate.js" />
         <option value="$PROJECT_DIR$/src/components/mainLayout/Header/Nav-logout.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="371" />
     <option name="y" value="-33" />
     <option name="width" value="980" />
@@ -208,14 +211,6 @@
               <item name="sito-cinema" type="b2602c69:ProjectViewProjectNode" />
               <item name="sito-cinema" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="cercaFilm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sito-cinema" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sito-cinema" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -269,16 +264,15 @@
       <updated>1578142476929</updated>
       <workItem from="1578142478635" duration="24414000" />
       <workItem from="1578170460887" duration="799000" />
-      <workItem from="1578322104462" duration="11868000" />
+      <workItem from="1578322104462" duration="12775000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37081000" />
+    <option name="totallyTimeSpent" value="37988000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1764706" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -317,16 +311,6 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#58#98#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -461,6 +445,13 @@
           <folding>
             <element signature="e#0#97#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
         </state>
       </provider>
     </entry>
