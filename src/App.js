@@ -1,9 +1,15 @@
+/*
+* Author    :   Tomàs Avila - Allan Nava
+* Modified  :   Tomàs Avila - Allan Nava  
+* Created   :   07/01/2020
+* Updated   :   07/01/2020
+*/
 import React from 'react';
-
+//
 import Header from "./components/mainLayout/Header/Header"
 import Footer from "./components/mainLayout/Footer/Footer";
 import MainTemplate from "./components/mainLayout/MainTemplate/MainTemplate";
-
+//
 function App() {
   return (
       <div>

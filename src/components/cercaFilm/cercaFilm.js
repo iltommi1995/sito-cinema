@@ -1,11 +1,17 @@
+/*
+* Author    :   Tomàs Avila - Allan Nava
+* Modified  :   Tomàs Avila - Allan Nava  
+* Created   :   07/01/2020
+* Updated   :   07/01/2020
+*/
 import React, {Component} from 'react'
 import FilmData from '../../data/TuttiFilm';
-
+//
 import "../../css/components/cercaFilm/cercaFilm.css";
 import {Col, Row} from "reactstrap";
 import ModalExample from "../mainLayout/schedaFilm/schedaFilm";
-
-
+//
+//
 function searchingFor(parolaRicerca){
     return function(x){
         return x.titolo.toLowerCase().includes(parolaRicerca.toLowerCase()) || !parolaRicerca;

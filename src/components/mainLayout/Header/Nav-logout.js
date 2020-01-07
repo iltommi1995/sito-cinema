@@ -1,6 +1,12 @@
+/*
+* Author    :   Tomàs Avila - Allan Nava
+* Modified  :   Tomàs Avila - Allan Nava  
+* Created   :   07/01/2020
+* Updated   :   07/01/2020
+*/
 import React from "react";
 import {Link} from "react-router-dom";
-
+//
 import {
     Collapse,
     Navbar,
@@ -15,7 +21,7 @@ import {
     DropdownItem,
     NavbarText
 } from 'reactstrap';
-
+//
 const NavLogout = (props) => {
     const [isOpen, setIsOpen] = React.useState(false);
 

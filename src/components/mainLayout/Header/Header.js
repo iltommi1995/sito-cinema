@@ -1,8 +1,14 @@
+/*
+* Author    :   Tomàs Avila - Allan Nava
+* Modified  :   Tomàs Avila - Allan Nava  
+* Created   :   07/01/2020
+* Updated   :   07/01/2020
+*/
 import {DropdownItem, DropdownMenu, DropdownToggle, Nav, UncontrolledDropdown} from "reactstrap";
 import React, {Component} from "react";
 import NavLogout from "./Nav-logout";
 import NavLogin from "./NavLogin";
-
+///
 class Header extends Component {
     constructor () {
         super()
@@ -72,9 +78,7 @@ class Header extends Component {
             </div>
         )
     }
-
 }
-
-
-
+//
 export default Header;
+//

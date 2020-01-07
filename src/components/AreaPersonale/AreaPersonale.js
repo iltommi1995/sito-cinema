@@ -1,14 +1,15 @@
+/*
+* Author    :   Tomàs Avila - Allan Nava
+* Modified  :   Tomàs Avila - Allan Nava  
+* Created   :   07/01/2020
+* Updated   :   07/01/2020
+*/
 import React, {Component} from "react";
 import UtenteData from "../../data/Utente";
-
+//
 class AreaPersonale extends Component {
 
-
-
     render() {
-
-
-
         return(
         <div>
             <h3>AREA PERSONALE</h3>
