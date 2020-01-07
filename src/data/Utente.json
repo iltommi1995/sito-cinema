@@ -1,0 +1,17 @@
+[
+  {
+    "nome": "Allan Nava",
+    "img": "/img/allan.jpg",
+    "punti": 20,
+    "coupon" : {
+      "num1": "Pizza a 5 euro",
+      "num2": "Menu grande popcorn + bibita a 6 euro",
+      "num3": "Biglietto IMAX scontato del 20%"
+    },
+    "premi" : {
+      "num1": "Biglietto per spettacolo 2D in omaggio",
+      "num2": "Biglietto per spettacolo 3D in omaggio",
+      "num3": "Menu grande popcorn gratis"
+    }
+  }
+]
