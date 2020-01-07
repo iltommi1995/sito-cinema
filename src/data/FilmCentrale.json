@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "img": "/img/theIrishman.jpg",
+    "titolo": "The Irishman",
+    "regista": "Martin Scorsese",
+    "genere": "Drammatico, Gangster",
+    "durata": "209'",
+    "cast": "Robert De Niro, Al Pacino, Joe Pesci",
+    "orari": {
+      "primo": "10.20",
+      "secondo": "16.30",
+      "terzo": "22.00"
+    },
+    "sinossi": "Frank Sheeran è un veterano della Seconda Guerra Mondiale e un autista di camion quando incontra l'uomo del destino, Russell Bufalino, boss della mafia a Filadelfia, che vede in lui il tratto principale di un buon ufficiale: l'affidabilità. Le famiglie di Frank e Russell stringono un'amicizia che va al di là (ma non al di sopra, come vedremo) del business. Russell è così fiero di Frank che lo presenta a Jimmy Hoffa, il capo del sindacato dei camionisti, più popolare di Elvis e dei Beatles messi insieme. Hoffa è vulcanico e brillante, calcolatore e stratega, ma anche affettuoso e seducente. Frank non è immune al suo carisma e diventa il suo guardiaspalle, il suo consigliere e, forse, il suo miglior amico. Il viaggio di questi tre personaggi attraverso gli Stati Uniti e la Storia americana è la stoffa di cui è fatto il cinema."
+  },
+  {
+    "id": 2,
+    "img": "/img/lUfficialeELaSpia.jpg",
+    "titolo": "L'ufficiale e la spia",
+    "regista": "Roman Polański",
+    "genere": "Storico, drammatico",
+    "durata": "132'",
+    "cast": "Jean Dujardin, Louis Garrel, Emmanuelle Seigner",
+    "orari": {
+      "primo": "11.00",
+      "secondo": "14.00",
+      "terzo": "17.30",
+      "quarto": "21.45"
+    },
+    "sinossi": "Nel 1894, il capitano francese Alfred Dreyfus, quarantenne ufficiale di origini ebraiche, viene ingiustamente accusato di tradimento e spionaggio, e condannato all'ergastolo da scontarsi sulla temibile Isola del Diavolo, nella Guyana francese."
+  },
+
+  {
+    "id": 3,
+    "img": "/img/cEraUnaVolta.jpg",
+    "titolo": "C'era una volta a... Hollywood",
+    "regista": "Quentin Tarantino",
+    "genere": "Commedia, thriller",
+    "durata": "161'",
+    "cast": "Leonardo DiCaprio, Brad Pitt, Margot Robbie",
+    "orari": {
+      "primo": "12.00",
+      "secondo": "15.20",
+      "terzo": "18.30",
+      "quarto": "22.30"
+    },
+    "sinossi": "Rick Dalton, attore televisivo di telefilm western in declino, e la sua controfigura Cliff Booth cercano di ottenere ingaggi e fortuna nell'industria cinematografica al tramonto dell'età dell'oro di Hollywood."
+  }
+]

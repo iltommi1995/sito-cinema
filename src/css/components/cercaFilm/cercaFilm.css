@@ -1,0 +1,14 @@
+.film-ricerca {
+    width: 50%;
+    display: inline-block;
+
+}
+
+.img-cerca-film {
+    float: left;
+
+}
+
+.testo-cerca-film {
+    float: right;
+}

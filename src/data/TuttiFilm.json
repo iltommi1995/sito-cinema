@@ -1,0 +1,127 @@
+[
+  {
+    "id": 1,
+    "img": "/img/cEraUnaVolta.jpg",
+    "titolo": "C'era una volta a... Hollywood",
+    "regista": "Quentin Tarantino",
+    "genere": "Commedia, thriller",
+    "durata": "161'",
+    "cast": "Leonardo DiCaprio, Brad Pitt, Margot Robbie",
+    "orari": {
+      "primo": "12.00",
+      "secondo": "15.20",
+      "terzo": "18.30",
+      "quarto": "22.30"
+    },
+    "sinossi": "Rick Dalton, attore televisivo di telefilm western in declino, e la sua controfigura Cliff Booth cercano di ottenere ingaggi e fortuna nell'industria cinematografica al tramonto dell'età dell'oro di Hollywood."
+  },
+  {
+    "id": 2,
+    "img": "/img/jumanji.jpg",
+    "titolo": "Jumanji - The Next Level",
+    "regista": "Jake Kasdan",
+    "genere": "Avventura, Commedia",
+    "durata": "113'",
+    "cast": "Dwayne Johnson, Jack Black, Kevin Hart",
+    "orari": {
+      "primo": "12.00",
+      "secondo": "15.20",
+      "terzo": "18.30",
+      "quarto": "22.30"
+    },
+    "sinossi": "Spencer decide di riparare il gioco di Jumanji e finisce ancora una volta risucchiato nel mondo del videogame. Per salvare il loro amico, Bethany, Fridge e Martha si rituffano dentro Jumanji."
+  },
+  {
+    "id": 3,
+    "img": "/img/lUfficialeELaSpia.jpg",
+    "titolo": "L'ufficiale e la spia",
+    "regista": "Roman Polański",
+    "genere": "Storico, drammatico",
+    "durata": "132'",
+    "cast": "Jean Dujardin, Louis Garrel, Emmanuelle Seigner",
+    "orari": {
+      "primo": "11.00",
+      "secondo": "14.00",
+      "terzo": "17.30",
+      "quarto": "21.45"
+    },
+    "sinossi": "Nel 1894, il capitano francese Alfred Dreyfus, quarantenne ufficiale di origini ebraiche, viene ingiustamente accusato di tradimento e spionaggio, e condannato all'ergastolo da scontarsi sulla temibile Isola del Diavolo, nella Guyana francese."
+  },
+  {
+    "id": 4,
+    "img": "/img/pinocchio.jpg",
+    "titolo": "Pinocchio (2019)",
+    "regista": "Matteo Garrone",
+    "genere": "Fantastico",
+    "durata": "125'",
+    "cast": "Federico Ielapi, Roberto Benigni, Gigi Proietti",
+    "orari": {
+      "secondo": "13.50",
+      "terzo": "18.10",
+      "quarto": "22.10"
+    },
+    "sinossi": "Il povero Geppetto, per smorzare la propria solitudine, costruisce un burattino di legno che gli faccia da figlio. Per magia, la creaturina prende vita, desiderosa solo di diventare un bambino vero. Crescere, però, si dimostra un'ardua impresa."
+  },
+  {
+    "id": 5,
+    "img": "/img/playmobil.jpg",
+    "titolo": "Playmobil: The Movie",
+    "regista": "Lino DiSalvo",
+    "genere": "Animazione",
+    "durata": "99'",
+    "cast": "",
+    "orari": {
+      "primo": "11.00",
+      "secondo": "15.10",
+      "terzo": "17.30"
+    },
+    "sinossi": "Quando il fratello minore Charlie scompare inaspettatamente nell'universo magico e animato di PLAYMOBIL®, Marla, sorella maggiore, totalmente impreparata, dovrà mettersi sulle sue tracce per riportarlo a casa. Partirà per un fantastico viaggio attraverso incredibili mondi, alleandosi con alcuni nuovi e improbabili amici: lo stravagante camionista Del, l'affascinante e carismatico agente segreto Rex Dasher, un fidato e strambo robot, una straordinaria fata madrina stravagante e molti altri. Marla e Charlie impareranno da questa avventura che la vita spesso ci mette davanti a delle prove importanti, ma che si può ottenere qualsiasi cosa quando credi in te stesso e se hai degli amici al tuo fianco!"
+  },
+  {
+    "id": 6,
+    "img": "/img/StarWars.jpg",
+    "titolo": "Star Wars- L'ascesa di Skywalker",
+    "regista": "J.J. Abrams",
+    "genere": "Fantascienza",
+    "durata": "142'",
+    "cast": "Daisy Ridley, Mark Hamill, Lupita Nyong'o",
+    "orari": {
+      "primo": "14.00",
+      "secondo": "17.30",
+      "terzo": "20.30",
+      "quarto": "22.50"
+    },
+    "sinossi": "Gli ultimi membri sopravvissuti della Resistenza affrontano il Primo Ordine mentre Rey, Finn e Poe Dameron continuano il proprio viaggio. La grande battaglia conclusiva ha finalmente inizio."
+  },
+  {
+    "id": 7,
+    "img": "/img/theIrishman.jpg",
+    "titolo": "The Irishman",
+    "regista": "Martin Scorsese",
+    "genere": "Drammatico, Gangster",
+    "durata": "209'",
+    "cast": "Robert De Niro, Al Pacino, Joe Pesci",
+    "orari": {
+      "primo": "10.20",
+      "secondo": "16.30",
+      "terzo": "22.00"
+    },
+    "sinossi": "Frank Sheeran è un veterano della Seconda Guerra Mondiale e un autista di camion quando incontra l'uomo del destino, Russell Bufalino, boss della mafia a Filadelfia, che vede in lui il tratto principale di un buon ufficiale: l'affidabilità. Le famiglie di Frank e Russell stringono un'amicizia che va al di là (ma non al di sopra, come vedremo) del business. Russell è così fiero di Frank che lo presenta a Jimmy Hoffa, il capo del sindacato dei camionisti, più popolare di Elvis e dei Beatles messi insieme. Hoffa è vulcanico e brillante, calcolatore e stratega, ma anche affettuoso e seducente. Frank non è immune al suo carisma e diventa il suo guardiaspalle, il suo consigliere e, forse, il suo miglior amico. Il viaggio di questi tre personaggi attraverso gli Stati Uniti e la Storia americana è la stoffa di cui è fatto il cinema."
+  },
+  {
+    "id": 8,
+    "img": "/img/ToloTolo.jpg",
+    "titolo": "Tolo Tolo",
+    "regista": "Checco Zalone",
+    "genere": "Commedia",
+    "durata": "90'",
+    "cast": "Checco Zalone, Barbara Bouchet, Alexis Michalik",
+    "orari": {
+      "primo": "14.15",
+      "secondo": "17.30",
+      "terzo": "20.15",
+      "quarto": "22.20"
+    },
+    "sinossi": "Dopo la poco brillante idea di aprire un ristorante sushi in un piccolo centro della Puglia, Checco scappa via dall'Italia a causa dei debiti contratti con lo Stato e con i familiari. Trova così lavoro in Africa ma la delicata situazione politica del continente lo costringe presto alla fuga. Non voluto da nessuno, sarà costretto ad affrontare (a modo suo) uno dei tanti viaggi della speranza che, solcando il Mediterraneo, hanno come obiettivo l'Italia dei pregiudizi e dei rigurgiti fascisti."
+  }
+]
