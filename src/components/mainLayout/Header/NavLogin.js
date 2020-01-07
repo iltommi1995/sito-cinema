@@ -52,7 +52,7 @@ const NavLogin = (props) => {
                                 <NavLink><Link to="/cercaFilm">Cerca film</Link></NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="https://github.com/reactstrap/reactstrap">Area Personale</NavLink>
+                                <NavLink><Link to="/areaPersonale">Area Personale</Link></NavLink>
                             </NavItem>
 
                         </Nav>
