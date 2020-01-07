@@ -5,7 +5,7 @@ import OrariFilmBicocca from "../../orariFilm/orariFilmBicocca";
 import OrariFilmCentrale from "../../orariFilm/orariFilmCentrale";
 
 import {Switch, Route} from "react-router-dom";
-import NomiFilm from "../../cercaFilm/cercaFilm";
+import CercaFilm from "../../cercaFilm/cercaFilm";
 
 
 function MainTemplate() {
@@ -15,7 +15,7 @@ function MainTemplate() {
                 <Route exact path="/" component={Home}/>
                 <Route path={"/orariFilmBicocca"} component={OrariFilmBicocca}/>
                 <Route path={"/orariFilmCentrale"} component={OrariFilmCentrale}/>
-                <Route path={"/cercaFilm"} component={NomiFilm}/>
+                <Route path={"/cercaFilm"} component={CercaFilm}/>
             </Switch>
         </div>
     )

@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import FilmData from '../../data/FilmBicocca';
+import FilmData from '../../data/TuttiFilm';
 
 import "../../css/components/cercaFilm/cercaFilm.css";
 import {Col, Row} from "reactstrap";
@@ -12,14 +12,14 @@ function searchingFor(parolaRicerca){
     }
 }
 
-class NomiFilm extends Component {
+class CercaFilm extends Component {
     constructor(props){
         super(props);
-            this.state = {
-                titoloFilm: FilmData,
-                parolaRicerca: ''
-            }
-            this.cercaTitoli =this.cercaTitoli.bind(this);
+        this.state = {
+            titoloFilm: FilmData,
+            parolaRicerca: ''
+        }
+        this.cercaTitoli =this.cercaTitoli.bind(this);
     }
 
     cercaTitoli(event){
@@ -31,44 +31,44 @@ class NomiFilm extends Component {
         const {parolaRicerca, titoloFilm} = this.state;
         return (
             <container>
-                <h2>Cerca tra i film:</h2>
+                <h2>FILM IN PROGRAMMAZIONE NEGLI SDV CINEMAS</h2>
                 <form>
                     <input type="text"
-                            onChange={this.cercaTitoli}
-                            value={parolaRicerca}
-                            placeholder="Titolo film">
+                           onChange={this.cercaTitoli}
+                           value={parolaRicerca}
+                           placeholder="Titolo film">
                     </input>
-                    </form>
+                </form>
                 {
                     titoloFilm.filter(searchingFor(parolaRicerca)).map(filmDetail =>
 
-                            <div key={filmDetail.id} className="film-ricerca">
-                                <Row className="scheda-film">
-                                    <Col xs="6">
-                                        <div className="img-cerca-film">
-                                            <img src={filmDetail.img} alt="immagine" className="img-scheda-film"/>
-                                        </div>
-                                        <div className="testo-cerca-film">
-                                            <h3>{filmDetail.titolo}</h3>
-                                            <br/>
-                                            <p><b>Regia:</b> {filmDetail.regista}</p>
-                                            <p><b>Genere:</b> {filmDetail.genere}</p>
-                                            <p><b>Durata:</b> {filmDetail.durata}</p>
-                                            <p><b>Cast:</b> {filmDetail.cast}</p>
-                                            <ModalExample
-                                                buttonLabel="Scheda del Film"
-                                                nomeFilm={filmDetail.titolo}
-                                                regista={filmDetail.regista}
-                                                genere={filmDetail.genere}
-                                                durata={filmDetail.durata}
-                                                cast={filmDetail.cast}
-                                                sinossi={filmDetail.sinossi}
-                                                immagine={filmDetail.img}
-                                            />
-                                        </div>
-                                    </Col>
-                                </Row>
-                            </div>
+                        <div key={filmDetail.id} className="film-ricerca">
+                            <Row className="scheda-film">
+                                <Col xs="6">
+                                    <div className="img-cerca-film">
+                                        <img src={filmDetail.img} alt="immagine" className="img-scheda-film"/>
+                                    </div>
+                                    <div className="testo-cerca-film">
+                                        <h3>{filmDetail.titolo}</h3>
+                                        <br/>
+                                        <p><b>Regia:</b> {filmDetail.regista}</p>
+                                        <p><b>Genere:</b> {filmDetail.genere}</p>
+                                        <p><b>Durata:</b> {filmDetail.durata}</p>
+                                        <p><b>Cast:</b> {filmDetail.cast}</p>
+                                        <ModalExample
+                                            buttonLabel="Scheda del Film"
+                                            nomeFilm={filmDetail.titolo}
+                                            regista={filmDetail.regista}
+                                            genere={filmDetail.genere}
+                                            durata={filmDetail.durata}
+                                            cast={filmDetail.cast}
+                                            sinossi={filmDetail.sinossi}
+                                            immagine={filmDetail.img}
+                                        />
+                                    </div>
+                                </Col>
+                            </Row>
+                        </div>
 
                     )
                 }
@@ -77,4 +77,4 @@ class NomiFilm extends Component {
     }
 }
 
-export default NomiFilm;
+export default CercaFilm;

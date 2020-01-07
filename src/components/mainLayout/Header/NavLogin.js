@@ -27,7 +27,7 @@ const NavLogin = (props) => {
                 "zIndex":"200"
             }}>
                 <div className="container">
-                    <NavbarBrand href="/">SDV Cinema</NavbarBrand>
+                    <NavbarBrand><Link to="/">SDV Cinema</Link></NavbarBrand>
                     <NavbarToggler onClick={toggle} />
                     <Collapse isOpen={isOpen} navbar>
                         <Nav className="mr-auto" navbar>
@@ -49,7 +49,7 @@ const NavLogin = (props) => {
                                 </DropdownMenu>
                             </UncontrolledDropdown>
                             <NavItem>
-                                <Link to="/cercaFilm">Cerca film</Link>
+                                <NavLink><Link to="/cercaFilm">Cerca film</Link></NavLink>
                             </NavItem>
                             <NavItem>
                                 <NavLink href="https://github.com/reactstrap/reactstrap">Area Personale</NavLink>
