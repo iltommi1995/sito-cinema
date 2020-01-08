@@ -1,6 +1,6 @@
 import React from "react";
 
-import "../../../css/components/mainLayout/Footer/Footer.css";
+import "../../../css/components/mainLayout/footer/footer.css";
 function Footer() {
     return(
         <div id="footer">

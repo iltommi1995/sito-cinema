@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import UtenteData from "../../data/Utente";
+import UtenteData from "../../data/utente";
 
 class AreaPersonale extends Component {
 

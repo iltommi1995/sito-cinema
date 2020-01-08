@@ -1,12 +1,12 @@
 import React from "react";
 
-import Home from "../../home/Home";
+import Home from "../../home/home";
 import OrariFilmBicocca from "../../orariFilm/orariFilmBicocca";
 import OrariFilmCentrale from "../../orariFilm/orariFilmCentrale";
 
 import {Switch, Route} from "react-router-dom";
 import CercaFilm from "../../cercaFilm/cercaFilm";
-import AreaPersonale from "../../AreaPersonale/AreaPersonale";
+import AreaPersonale from "../../areaPersonale/areaPersonale";
 
 
 function MainTemplate() {

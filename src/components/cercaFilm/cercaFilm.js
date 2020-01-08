@@ -1,9 +1,9 @@
 import React, {Component} from 'react'
-import FilmData from '../../data/TuttiFilm';
+import FilmData from '../../data/tuttiFilm';
 
 import "../../css/components/cercaFilm/cercaFilm.css";
 import {Col, Row} from "reactstrap";
-import ModalExample from "../mainLayout/schedaFilm/schedaFilm";
+import ModalExample from "../schedaFilm/schedaFilm";
 
 
 function searchingFor(parolaRicerca){
