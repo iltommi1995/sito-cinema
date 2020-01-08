@@ -1,4 +1,6 @@
+
 import React, {Component} from 'react'
+
 import FilmData from '../../data/tuttiFilm';
 
 import "../../css/components/cercaFilm/cercaFilm.css";

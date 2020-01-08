@@ -1,8 +1,11 @@
+
 import React, {Component} from 'react';
 import FilmData from '../../data/filmCentrale';
 import "../../css/components/schedaFilm/schedaFilm.css";
 import {Button, Col, Row} from "reactstrap";
+
 import ModalExample from "../schedaFilm/schedaFilm";
+
 
 class OrariFilmCentrale extends Component {
     render() {

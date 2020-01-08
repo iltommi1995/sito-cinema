@@ -1,14 +1,11 @@
+
 import React, {Component} from "react";
+
 import UtenteData from "../../data/utente";
 
 class AreaPersonale extends Component {
 
-
-
     render() {
-
-
-
         return(
         <div>
             <h3>AREA PERSONALE</h3>

@@ -1,7 +1,10 @@
+
 import {DropdownItem, DropdownMenu, DropdownToggle, Nav, UncontrolledDropdown} from "reactstrap";
 import React, {Component} from "react";
+
 import NavLogout from "./navLogout";
 import NavLogin from "./navLogin";
+
 
 class Header extends Component {
     constructor () {
@@ -72,9 +75,6 @@ class Header extends Component {
             </div>
         )
     }
-
 }
-
-
 
 export default Header;

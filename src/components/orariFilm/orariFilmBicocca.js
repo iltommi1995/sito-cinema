@@ -1,16 +1,23 @@
+/*
+* Author    :   Tomàs Avila - Allan Nava
+* Modified  :   Tomàs Avila - Allan Nava  
+* Created   :   07/01/2020
+* Updated   :   07/01/2020
+*/
 import React, {Component} from 'react';
 import FilmData from '../../data/filmBicocca';
 import "../../css/components/schedaFilm/schedaFilm.css";
 import {Button, Col, Row} from "reactstrap";
+
 import ModalExample from "../schedaFilm/schedaFilm";
+
+
 
 class OrariFilmBicocca extends Component {
     render() {
         return(
             <div>
                 <h2>Cinema Milano bicocca </h2>
-
-
 
                 {FilmData.map((filmDetail, index)=> {
                     return (
