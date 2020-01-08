@@ -1,14 +1,7 @@
-/*
-* Author    :   Tomàs Avila - Allan Nava
-* Modified  :   Tomàs Avila - Allan Nava  
-* Created   :   07/01/2020
-* Updated   :   07/01/2020
-*/
-/* eslint react/no-multi-comp: 0, react/prop-types: 0 */
-//
+
 import React, { useState } from 'react';
 import {Button, Modal, ModalHeader, ModalBody, ModalFooter, Col} from 'reactstrap';
-//
+
 const ModalExample = (props) => {
     const {
         buttonLabel,

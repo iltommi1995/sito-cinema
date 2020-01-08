@@ -1,11 +1,9 @@
-
 import React, {Component} from 'react'
 
 import FilmData from '../../data/tuttiFilm';
 
 import "../../css/components/cercaFilm/cercaFilm.css";
-import {Col, Row} from "reactstrap";
-import ModalExample from "../schedaFilm/schedaFilm";
+import SchedaCercaFilm from "./schedaCercaFilm";
 
 
 function searchingFor(parolaRicerca){
@@ -43,37 +41,9 @@ class CercaFilm extends Component {
                 </form>
                 {
                     titoloFilm.filter(searchingFor(parolaRicerca)).map(filmDetail =>
-
-                        <div key={filmDetail.id} className="prova-nuovo">
-                            <Row >
-                                <Col className="col-xs-3">
-
-                                        <img src={filmDetail.img} alt="immagine" className="imgCercaFilm"/>
-
-                                </Col>
-                                <Col className="col-xs-3">
-                                    <div id="testoCercaFilm">
-                                        <h3>{filmDetail.titolo}</h3>
-                                        <br/>
-                                        <p><b>Regia:</b> {filmDetail.regista}</p>
-                                        <p><b>Genere:</b> {filmDetail.genere}</p>
-                                        <p><b>Durata:</b> {filmDetail.durata}</p>
-                                        <p><b>Cast:</b> {filmDetail.cast}</p>
-                                        <ModalExample className="bottoneScheda"
-                                            buttonLabel="Scheda del Film"
-                                            nomeFilm={filmDetail.titolo}
-                                            regista={filmDetail.regista}
-                                            genere={filmDetail.genere}
-                                            durata={filmDetail.durata}
-                                            cast={filmDetail.cast}
-                                            sinossi={filmDetail.sinossi}
-                                            immagine={filmDetail.img}
-                                        />
-                                    </div>
-                                </Col>
-                            </Row>
-                        </div>
-
+                        <SchedaCercaFilm
+                            film={{img: filmDetail.img, id:filmDetail.id, regista:filmDetail.regista, genere:filmDetail.genere,
+                                durata:filmDetail.durata, cast:filmDetail.cast, titolo:filmDetail.titolo, sinossi:filmDetail.sinossi}}/>
                     )
                 }
             </container>

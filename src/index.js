@@ -1,19 +1,13 @@
-/*
-* Author    :   Tomàs Avila - Allan Nava
-* Modified  :   Tomàs Avila - Allan Nava  
-* Created   :   07/01/2020
-* Updated   :   07/01/2020
-*/
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './css/index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import {BrowserRouter} from "react-router-dom"
-//
+
 import 'bootstrap/dist/css/bootstrap.min.css';
-//
-//
+
 ReactDOM.render(
     <BrowserRouter>
         <App />
