@@ -60,7 +60,9 @@ const NavLogout = (props) => {
 
 
                     </Nav>
-
+                    <Nav>
+                        {props.login.button}
+                    </Nav>
                 </Collapse>
                 </div>
             </Navbar>

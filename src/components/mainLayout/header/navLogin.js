@@ -62,7 +62,9 @@ const NavLogin = (props) => {
                             </NavItem>
 
                         </Nav>
-
+                        <Nav>
+                            {props.login.button}
+                        </Nav>
                     </Collapse>
                 </div>
             </Navbar>

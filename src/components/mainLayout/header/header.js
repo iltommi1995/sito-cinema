@@ -26,51 +26,51 @@ class Header extends Component {
     render () {
 
         let testoBottone = this.state.isLoggedIn ? "LOG OUT" : "LOG IN"
+        let bottone = <div>
+            <UncontrolledDropdown nav inNavbar>
+                {this.state.isLoggedIn ?
+                    <DropdownToggle nav caret>
+                        Nome Utente
+                    </DropdownToggle>
+                    :
+                    <DropdownToggle nav caret>
+                        LOGIN
+                    </DropdownToggle>
+                }
 
+                {this.state.isLoggedIn ?
+                    <div>
+                        <DropdownMenu right>
+
+                            Sei Loggato.
+                            <DropdownItem divider />
+                            <button value="login" onClick={this.handleClick}>{testoBottone}</button>
+                        </DropdownMenu>
+                    </div>
+                    :
+                    <div>
+                        <DropdownMenu right>
+
+                            Nome utente: <input type="text"></input>
+                            Password: <input type="text"></input>
+                            <DropdownItem divider />
+                            <button value="login" onClick={this.handleClick}>{testoBottone}</button>
+                        </DropdownMenu>
+                    </div>
+
+                }
+
+            </UncontrolledDropdown>
+        </div>;
         return(
             <div>
-                {this.state.isLoggedIn ? <NavLogin /> : <NavLogout />}
+                {this.state.isLoggedIn ? <NavLogin login={{button:bottone}}/> : <NavLogout login={{button:bottone}}/>}
                 <div style={{"position":"fixed",
                              "top": "8px",
                             "zIndex":"300",
                             "right":"500px"
                 }}>
-                    <Nav>
-                        <UncontrolledDropdown nav inNavbar>
-                            {this.state.isLoggedIn ?
-                                <DropdownToggle nav caret>
-                                    Nome Utente
-                                </DropdownToggle>
-                                :
-                                <DropdownToggle nav caret>
-                                    LOGIN
-                                </DropdownToggle>
-                            }
 
-                            {this.state.isLoggedIn ?
-                                <div>
-                                    <DropdownMenu right>
-
-                                        Sei Loggato.
-                                        <DropdownItem divider />
-                                        <button value="login" onClick={this.handleClick}>{testoBottone}</button>
-                                    </DropdownMenu>
-                                </div>
-                                :
-                                <div>
-                                <DropdownMenu right>
-
-                                    Nome utente: <input type="text"></input>
-                                    Password: <input type="text"></input>
-                                    <DropdownItem divider />
-                                    <button value="login" onClick={this.handleClick}>{testoBottone}</button>
-                                </DropdownMenu>
-                            </div>
-
-                            }
-
-                        </UncontrolledDropdown>
-                    </Nav>
                 </div>
             </div>
         )
