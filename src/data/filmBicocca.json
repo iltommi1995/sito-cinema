@@ -7,11 +7,37 @@
     "genere": "Commedia",
     "durata": "90'",
     "cast": "Checco Zalone, Barbara Bouchet, Alexis Michalik",
-    "orari": {
-      "primo": "14.15",
-      "secondo": "17.30",
-      "terzo": "20.15",
-      "quarto": "22.20"
+    "orari":{ 
+      "lunedì": {
+        "primo": "12.00",
+        "secondo": "15.20",
+        "terzo": "18.30",
+        "quarto": "22.30"
+      }, 
+      "martedì": {
+        "primo": "12.00",
+        "secondo": "15.20",
+        "terzo": "18.30",
+        "quarto": "22.30"
+      },
+      "mercoledì": {
+        "primo": "12.00",
+        "secondo": "15.20",
+        "terzo": "18.30",
+        "quarto": "22.30"
+      },
+      "giovedì": {
+        "primo": "12.00",
+        "secondo": "15.20",
+        "terzo": "18.30",
+        "quarto": "22.30"
+      },
+      "venerdì": {
+        "primo": "12.00",
+        "secondo": "15.20",
+        "terzo": "18.30",
+        "quarto": "22.30"
+      }
     },
     "sinossi": "Dopo la poco brillante idea di aprire un ristorante sushi in un piccolo centro della Puglia, Checco scappa via dall'Italia a causa dei debiti contratti con lo Stato e con i familiari. Trova così lavoro in Africa ma la delicata situazione politica del continente lo costringe presto alla fuga. Non voluto da nessuno, sarà costretto ad affrontare (a modo suo) uno dei tanti viaggi della speranza che, solcando il Mediterraneo, hanno come obiettivo l'Italia dei pregiudizi e dei rigurgiti fascisti."
   },
@@ -23,11 +49,37 @@
     "genere": "Fantascienza",
     "durata": "142'",
     "cast": "Daisy Ridley, Mark Hamill, Lupita Nyong'o",
-    "orari": {
-      "primo": "14.00",
-      "secondo": "17.30",
-      "terzo": "20.30",
-      "quarto": "22.50"
+    "orari":{ 
+      "lunedì": {
+        "primo": "12.00",
+        "secondo": "15.20",
+        "terzo": "18.30",
+        "quarto": "22.30"
+      }, 
+      "martedì": {
+        "primo": "12.00",
+        "secondo": "15.20",
+        "terzo": "18.30",
+        "quarto": "22.30"
+      },
+      "mercoledì": {
+        "primo": "12.00",
+        "secondo": "15.20",
+        "terzo": "18.30",
+        "quarto": "22.30"
+      },
+      "giovedì": {
+        "primo": "12.00",
+        "secondo": "15.20",
+        "terzo": "18.30",
+        "quarto": "22.30"
+      },
+      "venerdì": {
+        "primo": "12.00",
+        "secondo": "15.20",
+        "terzo": "18.30",
+        "quarto": "22.30"
+      }
     },
     "sinossi": "Gli ultimi membri sopravvissuti della Resistenza affrontano il Primo Ordine mentre Rey, Finn e Poe Dameron continuano il proprio viaggio. La grande battaglia conclusiva ha finalmente inizio."
   },
@@ -39,10 +91,37 @@
     "genere": "Animazione",
     "durata": "99'",
     "cast": "",
-    "orari": {
-      "primo": "11.00",
-      "secondo": "15.10",
-      "terzo": "17.30"
+    "orari":{ 
+      "lunedì": {
+        "primo": "12.00",
+        "secondo": "15.20",
+        "terzo": "18.30",
+        "quarto": "22.30"
+      }, 
+      "martedì": {
+        "primo": "12.00",
+        "secondo": "15.20",
+        "terzo": "18.30",
+        "quarto": "22.30"
+      },
+      "mercoledì": {
+        "primo": "12.00",
+        "secondo": "15.20",
+        "terzo": "18.30",
+        "quarto": "22.30"
+      },
+      "giovedì": {
+        "primo": "12.00",
+        "secondo": "15.20",
+        "terzo": "18.30",
+        "quarto": "22.30"
+      },
+      "venerdì": {
+        "primo": "12.00",
+        "secondo": "15.20",
+        "terzo": "18.30",
+        "quarto": "22.30"
+      }
     },
     "sinossi": "Quando il fratello minore Charlie scompare inaspettatamente nell'universo magico e animato di PLAYMOBIL®, Marla, sorella maggiore, totalmente impreparata, dovrà mettersi sulle sue tracce per riportarlo a casa. Partirà per un fantastico viaggio attraverso incredibili mondi, alleandosi con alcuni nuovi e improbabili amici: lo stravagante camionista Del, l'affascinante e carismatico agente segreto Rex Dasher, un fidato e strambo robot, una straordinaria fata madrina stravagante e molti altri. Marla e Charlie impareranno da questa avventura che la vita spesso ci mette davanti a delle prove importanti, ma che si può ottenere qualsiasi cosa quando credi in te stesso e se hai degli amici al tuo fianco!"
   },
@@ -54,11 +133,37 @@
     "genere": "Avventura, Commedia",
     "durata": "113'",
     "cast": "Dwayne Johnson, Jack Black, Kevin Hart",
-    "orari": {
-      "primo": "12.00",
-      "secondo": "15.20",
-      "terzo": "18.30",
-      "quarto": "22.30"
+    "orari":{ 
+      "lunedì": {
+        "primo": "12.00",
+        "secondo": "15.20",
+        "terzo": "18.30",
+        "quarto": "22.30"
+      }, 
+      "martedì": {
+        "primo": "12.00",
+        "secondo": "15.20",
+        "terzo": "18.30",
+        "quarto": "22.30"
+      },
+      "mercoledì": {
+        "primo": "12.00",
+        "secondo": "15.20",
+        "terzo": "18.30",
+        "quarto": "22.30"
+      },
+      "giovedì": {
+        "primo": "12.00",
+        "secondo": "15.20",
+        "terzo": "18.30",
+        "quarto": "22.30"
+      },
+      "venerdì": {
+        "primo": "12.00",
+        "secondo": "15.20",
+        "terzo": "18.30",
+        "quarto": "22.30"
+      }
     },
     "sinossi": "Spencer decide di riparare il gioco di Jumanji e finisce ancora una volta risucchiato nel mondo del videogame. Per salvare il loro amico, Bethany, Fridge e Martha si rituffano dentro Jumanji."
   },
@@ -70,10 +175,37 @@
     "genere": "Fantastico",
     "durata": "125'",
     "cast": "Federico Ielapi, Roberto Benigni, Gigi Proietti",
-    "orari": {
-      "secondo": "13.50",
-      "terzo": "18.10",
-      "quarto": "22.10"
+    "orari":{ 
+      "lunedì": {
+        "primo": "12.00",
+        "secondo": "15.20",
+        "terzo": "18.30",
+        "quarto": "22.30"
+      }, 
+      "martedì": {
+        "primo": "12.00",
+        "secondo": "15.20",
+        "terzo": "18.30",
+        "quarto": "22.30"
+      },
+      "mercoledì": {
+        "primo": "12.00",
+        "secondo": "15.20",
+        "terzo": "18.30",
+        "quarto": "22.30"
+      },
+      "giovedì": {
+        "primo": "12.00",
+        "secondo": "15.20",
+        "terzo": "18.30",
+        "quarto": "22.30"
+      },
+      "venerdì": {
+        "primo": "12.00",
+        "secondo": "15.20",
+        "terzo": "18.30",
+        "quarto": "22.30"
+      }
     },
     "sinossi": "Il povero Geppetto, per smorzare la propria solitudine, costruisce un burattino di legno che gli faccia da figlio. Per magia, la creaturina prende vita, desiderosa solo di diventare un bambino vero. Crescere, però, si dimostra un'ardua impresa."
   }
