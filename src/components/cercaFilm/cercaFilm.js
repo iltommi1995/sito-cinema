@@ -59,7 +59,7 @@ class CercaFilm extends Component {
                                         <p><b>Genere:</b> {filmDetail.genere}</p>
                                         <p><b>Durata:</b> {filmDetail.durata}</p>
                                         <p><b>Cast:</b> {filmDetail.cast}</p>
-                                        <ModalExample
+                                        <ModalExample className="bottoneScheda"
                                             buttonLabel="Scheda del Film"
                                             nomeFilm={filmDetail.titolo}
                                             regista={filmDetail.regista}
