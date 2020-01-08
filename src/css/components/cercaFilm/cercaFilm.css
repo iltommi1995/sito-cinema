@@ -1,14 +1,13 @@
-.film-ricerca {
-    width: 50%;
+.prova-nuovo {
     display: inline-block;
+    margin-top: 30px;
 
 }
 
-.img-cerca-film {
-    float: left;
-
+#testoCercaFilm {
+    width: 300px;
 }
 
-.testo-cerca-film {
-    float: right;
+.imgCercaFilm {
+    width: 200px;
 }

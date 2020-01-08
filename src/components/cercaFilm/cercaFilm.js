@@ -44,13 +44,15 @@ class CercaFilm extends Component {
                 {
                     titoloFilm.filter(searchingFor(parolaRicerca)).map(filmDetail =>
 
-                        <div key={filmDetail.id} className="film-ricerca">
-                            <Row className="scheda-film">
-                                <Col xs="6">
-                                    <div className="img-cerca-film">
-                                        <img src={filmDetail.img} alt="immagine" className="img-scheda-film"/>
-                                    </div>
-                                    <div className="testo-cerca-film">
+                        <div key={filmDetail.id} className="prova-nuovo">
+                            <Row >
+                                <Col className="col-xs-3">
+
+                                        <img src={filmDetail.img} alt="immagine" className="imgCercaFilm"/>
+
+                                </Col>
+                                <Col className="col-xs-3">
+                                    <div id="testoCercaFilm">
                                         <h3>{filmDetail.titolo}</h3>
                                         <br/>
                                         <p><b>Regia:</b> {filmDetail.regista}</p>
