@@ -2,20 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27560cf9-406f-4bfb-84d3-088a056890be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/mainLayout/header/navLogout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/StarWars.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/starWars.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/ToloTolo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/toloTolo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/installation.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AreaPersonale/AreaPersonale.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/areaPersonale/areaPersonale.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/areaPersonale/areaPersonale.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/areaPersonale/areaPersonale.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/cercaFilm/cercaFilm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cercaFilm/cercaFilm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/mainLayout/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mainLayout/footer/footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/mainLayout/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mainLayout/header/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/mainLayout/Header/NavLogin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mainLayout/header/navLogin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/mainLayout/MainTemplate/MainTemplate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mainLayout/mainTemplate/MainTemplate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/mainLayout/schedaFilm/schedaFilm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/schedaFilm/schedaFilm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/mainLayout/footer/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mainLayout/footer/footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/mainLayout/header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mainLayout/header/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/mainLayout/header/navLogin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mainLayout/header/navLogin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/mainLayout/header/navLogout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mainLayout/header/navLogout.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/orariFilm/orariFilmBicocca.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/orariFilm/orariFilmBicocca.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/orariFilm/orariFilmCentrale.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/orariFilm/orariFilmCentrale.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/schedaFilm/schedaFilm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/schedaFilm/schedaFilm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/serviceWorker.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,42 +30,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/areaPersonale/areaPersonale.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data/Utente.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data/TuttiFilm.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/mainLayout/header/header.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="282">
+              <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
               <folding>
-                <element signature="e#0#97#0" expanded="true" />
+                <element signature="e#144#241#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,7 +65,6 @@
         <option value="$PROJECT_DIR$/src/components/schedaFilm/orariFilm.js" />
         <option value="$PROJECT_DIR$/src/components/palinsestoCinema/PalinsestoCinema.js" />
         <option value="$PROJECT_DIR$/src/data/FilmCentrale.json" />
-        <option value="$PROJECT_DIR$/src/components/orariFilm/orariFilmCentrale.js" />
         <option value="$PROJECT_DIR$/src/data/FilmBicocca.json" />
         <option value="$PROJECT_DIR$/src/components/mainLayout/schedaFilm/schedaFilm.js" />
         <option value="$PROJECT_DIR$/src/css/components/schedaFilm/SchedaFilm.css" />
@@ -102,22 +72,27 @@
         <option value="$PROJECT_DIR$/src/css/components/mainLayout/Footer/Footer.css" />
         <option value="$PROJECT_DIR$/src/data/TuttiFilm.json" />
         <option value="$PROJECT_DIR$/src/css/components/cercaFilm/cercaFilm.css" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/mainLayout/Header/Header.js" />
-        <option value="$PROJECT_DIR$/src/components/cercaFilm/cercaFilm.js" />
         <option value="$PROJECT_DIR$/src/components/home/Home.js" />
         <option value="$PROJECT_DIR$/src/components/mainLayout/Header/Nav-logout.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/components/mainLayout/MainTemplate/MainTemplate.js" />
         <option value="$PROJECT_DIR$/src/components/mainLayout/Header/NavLogin.js" />
-        <option value="$PROJECT_DIR$/src/components/orariFilm/orariFilmBicocca.js" />
         <option value="$PROJECT_DIR$/src/data/Utente.json" />
         <option value="$PROJECT_DIR$/src/components/AreaPersonale/AreaPersonale.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/components/orariFilm/orariFilmBicocca.js" />
+        <option value="$PROJECT_DIR$/src/components/orariFilm/orariFilmCentrale.js" />
+        <option value="$PROJECT_DIR$/src/components/cercaFilm/cercaFilm.js" />
+        <option value="$PROJECT_DIR$/src/components/areaPersonale/areaPersonale.js" />
+        <option value="$PROJECT_DIR$/src/components/mainLayout/footer/footer.js" />
+        <option value="$PROJECT_DIR$/src/components/mainLayout/header/header.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="951" />
+    <option name="x" value="471" />
+    <option name="y" value="-37" />
     <option name="width" value="978" />
     <option name="height" value="1039" />
   </component>
@@ -164,13 +139,6 @@
               <item name="sito-cinema" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sito-cinema" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sito-cinema" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="mainLayout" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -180,6 +148,13 @@
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="mainLayout" type="462c0819:PsiDirectoryNode" />
               <item name="header" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sito-cinema" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sito-cinema" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="orariFilm" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -235,17 +210,18 @@
       <workItem from="1578142478635" duration="24414000" />
       <workItem from="1578170460887" duration="799000" />
       <workItem from="1578322104462" duration="17752000" />
-      <workItem from="1578485727647" duration="375000" />
+      <workItem from="1578485727647" duration="1054000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43340000" />
+    <option name="totallyTimeSpent" value="44019000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13417052" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18440185" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -286,41 +262,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/orariFilm/orariFilmCentrale.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="36" column="38" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="36" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/mainLayout/footer/footer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/components/schedaFilm/SchedaFilm.css">
+    <entry file="file://$PROJECT_DIR$/src/css/components/schedaFilm/schedaFilm.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/components/mainLayout/Footer/Footer.css">
+    <entry file="file://$PROJECT_DIR$/src/css/components/mainLayout/footer/footer.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/FilmBicocca.json">
+    <entry file="file://$PROJECT_DIR$/src/data/filmBicocca.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
           <caret line="79" column="1" selection-end-line="79" selection-end-column="1" />
@@ -331,16 +287,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="15" selection-start-column="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/cercaFilm/cercaFilm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="63" lean-forward="true" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -365,13 +311,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="57" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/mainLayout/header/navLogin.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -382,14 +321,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/FilmCentrale.json">
+    <entry file="file://$PROJECT_DIR$/src/data/filmCentrale.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="51" lean-forward="true" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/mainLayout/mainTemplate/MainTemplate.js">
+    <entry file="file://$PROJECT_DIR$/src/components/mainLayout/mainTemplate/mainTemplate.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
           <caret line="19" column="74" selection-start-line="19" selection-start-column="74" selection-end-line="19" selection-end-column="74" />
@@ -399,46 +338,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/orariFilm/orariFilmBicocca.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1173">
-          <caret line="15" column="28" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="15" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/areaPersonale/areaPersonale.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/Utente.json">
+    <entry file="file://$PROJECT_DIR$/src/data/utente.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/TuttiFilm.json">
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#1#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/tuttiFilm.json">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/orariFilm/orariFilmBicocca.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1870">
+          <caret line="115" selection-start-line="115" selection-end-line="115" />
+          <folding>
+            <element signature="e#144#183#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/orariFilm/orariFilmCentrale.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1384">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#144#183#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/cercaFilm/cercaFilm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-908">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#1#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/areaPersonale/areaPersonale.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-228">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#1#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/mainLayout/footer/footer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#144#170#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/mainLayout/header/header.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="282">
+          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
           <folding>
-            <element signature="e#0#97#0" expanded="true" />
+            <element signature="e#144#241#0" expanded="true" />
           </folding>
         </state>
       </provider>
