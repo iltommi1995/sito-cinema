@@ -13,8 +13,7 @@ class OrariFilmBicocca extends Component {
             <div>
                 <h2>Cinema Milano Bicocca </h2>
 
-                {
-                    FilmData.map(filmDetail =><SchedaOrariFilmV2 film={filmDetail} />)}
+                {FilmData.map(filmDetail =><SchedaOrariFilmV2 film={filmDetail} />)}
             </div>
         )
     }
