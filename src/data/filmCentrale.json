@@ -8,27 +8,27 @@
     "durata": "209'",
     "cast": "Robert De Niro, Al Pacino, Joe Pesci",
     "orari":{
-      "lunedì": {
+      "Lunedì": {
         "primo": "10.20",
         "secondo": "16.30",
         "terzo": "22.00"
       },
-      "martedì": {
+      "Martedì": {
         "primo": "10.20",
         "secondo": "16.30",
         "terzo": "22.00"
       },
-      "mercoledì": {
+      "Mercoledì": {
         "primo": "10.20",
         "secondo": "16.30",
         "terzo": "22.00"
       },
-      "giovedì": {
+      "Giovedì": {
         "primo": "10.20",
         "secondo": "16.30",
         "terzo": "22.00"
       },
-      "venerdì": {
+      "Venerdì": {
         "primo": "10.20",
         "secondo": "16.30",
         "terzo": "22.00"
@@ -45,31 +45,31 @@
     "durata": "132'",
     "cast": "Jean Dujardin, Louis Garrel, Emmanuelle Seigner",
     "orari":{
-      "lunedì": {
+      "Lunedì": {
         "primo": "11.00",
         "secondo": "14.00",
         "terzo": "17.30",
         "quarto": "21.45"
       },
-      "martedì": {
+      "Martedì": {
         "primo": "12.00",
         "secondo": "15.20",
         "terzo": "18.30",
         "quarto": "22.30"
       },
-      "mercoledì": {
+      "Mercoledì": {
         "primo": "11.00",
         "secondo": "14.00",
         "terzo": "17.30",
         "quarto": "21.45"
       },
-      "giovedì": {
+      "Giovedì": {
         "primo": "11.00",
         "secondo": "14.00",
         "terzo": "17.30",
         "quarto": "21.45"
       },
-      "venerdì": {
+      "Venerdì": {
         "primo": "11.00",
         "secondo": "14.00",
         "terzo": "17.30",
@@ -88,31 +88,31 @@
     "durata": "161'",
     "cast": "Leonardo DiCaprio, Brad Pitt, Margot Robbie",
     "orari":{
-      "lunedì": {
+      "Lunedì": {
         "primo": "12.00",
         "secondo": "15.20",
         "terzo": "18.30",
         "quarto": "22.30"
       },
-      "martedì": {
+      "Martedì": {
         "primo": "12.00",
         "secondo": "15.20",
         "terzo": "18.30",
         "quarto": "22.30"
       },
-      "mercoledì": {
+      "Mercoledì": {
         "primo": "12.00",
         "secondo": "15.20",
         "terzo": "18.30",
         "quarto": "22.30"
       },
-      "giovedì": {
+      "Giovedì": {
         "primo": "12.00",
         "secondo": "15.20",
         "terzo": "18.30",
         "quarto": "22.30"
       },
-      "venerdì": {
+      "Venerdì": {
         "primo": "12.00",
         "secondo": "15.20",
         "terzo": "18.30",
