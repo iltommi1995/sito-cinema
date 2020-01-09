@@ -5,6 +5,7 @@ import ModalExample from "../schedaFilm/schedaFilm";
 function schedaGiorni (data, day) {
     return(
         <Row>
+        <div>
             <div className="giorno">
                 <h4 className="h4-giorno">{day}</h4>
             </div>
@@ -14,7 +15,9 @@ function schedaGiorni (data, day) {
                 <p className="orario-film">{data.terzo}</p>
                 <p className="orario-film">{data.quarto}</p>
             </div>
+        </div>
         </Row>
+
     )
 }
 
@@ -50,6 +53,11 @@ function SchedaOrariFilmV2 (data) {
                             schedaGiorni(data.film.orari[key], key)
                         )}
 
+                    <Row>
+                    { Object.keys(data.film.orari).map(key =>
+                        schedaGiorni(data.film.orari[key], key)
+                )}
+                    </Row>
                 </Col>
             </Row>
 

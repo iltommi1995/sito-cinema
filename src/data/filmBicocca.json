@@ -7,12 +7,12 @@
     "genere": "Commedia",
     "durata": "90'",
     "cast": "Checco Zalone, Barbara Bouchet, Alexis Michalik",
-    "orari":{
+    "orari":{ 
       "lunedì": {
-        "primo": "10.00",
-        "secondo": "12.20",
-        "terzo": "16.30",
-        "quarto": "19.30"
+        "primo": "12.00",
+        "secondo": "15.20",
+        "terzo": "18.30",
+        "quarto": "22.30"
       },
       "martedì": {
         "primo": "12.00",
@@ -21,9 +21,9 @@
         "quarto": "22.30"
       },
       "mercoledì": {
-        "primo": "13.00",
-        "secondo": "16.20",
-        "terzo": "19.30",
+        "primo": "12.00",
+        "secondo": "15.20",
+        "terzo": "18.30",
         "quarto": "22.30"
       },
       "giovedì": {
@@ -49,7 +49,7 @@
     "genere": "Fantascienza",
     "durata": "142'",
     "cast": "Daisy Ridley, Mark Hamill, Lupita Nyong'o",
-    "orari":{
+    "orari": {
       "lunedì": {
         "primo": "11.00",
         "secondo": "15.20",
@@ -57,32 +57,32 @@
         "quarto": "22.30"
       },
       "martedì": {
-        "primo": "10.00",
-        "secondo": "13.20",
-        "terzo": "18.30",
-        "quarto": "22.30"
-      },
+            "primo": "12.00",
+            "secondo": "15.20",
+            "terzo": "18.30",
+            "quarto": "22.30"
+          },
       "mercoledì": {
-        "primo": "12.00",
-        "secondo": "16.20",
-        "terzo": "19.30",
-        "quarto": "22.30"
-      },
+            "primo": "12.00",
+            "secondo": "16.20",
+            "terzo": "19.30",
+            "quarto": "22.30"
+          },
       "giovedì": {
-        "primo": "11.00",
-        "secondo": "15.20",
-        "terzo": "18.30",
-        "quarto": "23.30"
-      },
+            "primo": "11.00",
+            "secondo": "15.20",
+            "terzo": "18.30",
+            "quarto": "23.30"
+          },
       "venerdì": {
-        "primo": "13.20",
-        "secondo": "16.20",
-        "terzo": "19.30",
-        "quarto": "23.30"
-      }
+            "primo": "13.20",
+            "secondo": "16.20",
+            "terzo": "19.30",
+            "quarto": "23.30"
+          }
     },
     "sinossi": "Gli ultimi membri sopravvissuti della Resistenza affrontano il Primo Ordine mentre Rey, Finn e Poe Dameron continuano il proprio viaggio. La grande battaglia conclusiva ha finalmente inizio."
-  },
+    },
   {
     "id": 3,
     "img": "/img/playmobil.jpg",

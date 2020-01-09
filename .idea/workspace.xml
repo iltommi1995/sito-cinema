@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27560cf9-406f-4bfb-84d3-088a056890be" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/mainLayout/header/navLogin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mainLayout/header/navLogin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/mainLayout/header/navLogout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mainLayout/header/navLogout.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/orariFilm/orariFilmBicocca.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/orariFilm/orariFilmBicocca.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/orariFilm/orariFilmCentrale.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/orariFilm/orariFilmCentrale.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/orariFilm/schedaOrariFilmV2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/orariFilm/schedaOrariFilmV2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data/filmBicocca.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/filmBicocca.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/filmCentrale.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/filmCentrale.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/tuttiFilm.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/tuttiFilm.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,32 +36,30 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/orariFilm/orariFilmBicocca.js">
+        <entry file="file://$PROJECT_DIR$/src/components/orariFilm/schedaOrariFilmV2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+            <state relative-caret-position="289">
+              <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#144#183#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/data/filmBicocca.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="42" column="4" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="42" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/data/tuttiFilm.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="291" column="11" selection-start-line="291" selection-start-column="11" selection-end-line="291" selection-end-column="11" />
+            <state relative-caret-position="361">
+              <caret line="84" column="6" selection-start-line="84" selection-start-column="6" selection-end-line="84" selection-end-column="6" />
+              <folding>
+                <element signature="e#400#1428#0" />
+                <element signature="e#2229#2344#0" />
+                <element signature="e#2593#2757#0" />
+                <element signature="e#2778#2906#0" />
+                <element signature="e#2925#3040#0" />
+                <element signature="e#3059#3262#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -119,12 +113,12 @@
         <option value="$PROJECT_DIR$/src/components/mainLayout/header/navLogout.js" />
         <option value="$PROJECT_DIR$/src/components/mainLayout/header/navLogin.js" />
         <option value="$PROJECT_DIR$/src/components/orariFilm/schedaOrariFilm.js" />
-        <option value="$PROJECT_DIR$/src/components/orariFilm/schedaOrariFilmV2.js" />
-        <option value="$PROJECT_DIR$/src/data/filmBicocca.json" />
         <option value="$PROJECT_DIR$/src/data/filmCentrale.json" />
         <option value="$PROJECT_DIR$/src/components/orariFilm/orariFilmCentrale.js" />
-        <option value="$PROJECT_DIR$/src/components/orariFilm/orariFilmBicocca.js" />
         <option value="$PROJECT_DIR$/src/data/tuttiFilm.json" />
+        <option value="$PROJECT_DIR$/src/components/orariFilm/orariFilmBicocca.js" />
+        <option value="$PROJECT_DIR$/src/components/orariFilm/schedaOrariFilmV2.js" />
+        <option value="$PROJECT_DIR$/src/data/filmBicocca.json" />
       </list>
     </option>
   </component>
@@ -230,18 +224,18 @@
       <workItem from="1578142478635" duration="24414000" />
       <workItem from="1578170460887" duration="799000" />
       <workItem from="1578322104462" duration="17752000" />
-      <workItem from="1578485727647" duration="16422000" />
+      <workItem from="1578485727647" duration="17265000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59387000" />
+    <option name="totallyTimeSpent" value="60230000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18440185" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18440185" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -255,7 +249,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.34844193" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.34844193" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -419,16 +413,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/orariFilm/schedaOrariFilmV2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/orariFilm/orariFilmCentrale.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -449,12 +433,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/filmCentrale.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="37" column="4" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="37" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/tuttiFilm.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-401">
+          <caret line="291" column="11" selection-start-line="291" selection-start-column="11" selection-end-line="291" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/orariFilm/orariFilmBicocca.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+        <state relative-caret-position="28">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
             <element signature="e#144#183#0" expanded="true" />
           </folding>
         </state>
@@ -467,24 +464,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/filmCentrale.json">
+    <entry file="file://$PROJECT_DIR$/src/components/orariFilm/schedaOrariFilmV2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="37" column="4" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="37" selection-end-column="4" />
+        <state relative-caret-position="289">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/data/filmBicocca.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="42" column="4" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="42" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/tuttiFilm.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="291" column="11" selection-start-line="291" selection-start-column="11" selection-end-line="291" selection-end-column="11" />
+        <state relative-caret-position="361">
+          <caret line="84" column="6" selection-start-line="84" selection-start-column="6" selection-end-line="84" selection-end-column="6" />
+          <folding>
+            <element signature="e#400#1428#0" />
+            <element signature="e#2229#2344#0" />
+            <element signature="e#2593#2757#0" />
+            <element signature="e#2778#2906#0" />
+            <element signature="e#2925#3040#0" />
+            <element signature="e#3059#3262#0" />
+          </folding>
         </state>
       </provider>
     </entry>
