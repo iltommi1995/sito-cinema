@@ -7,10 +7,33 @@
     "genere": "Drammatico, Gangster",
     "durata": "209'",
     "cast": "Robert De Niro, Al Pacino, Joe Pesci",
-    "orari": {
+    "orari":{
+      "lunedì": {
         "primo": "10.20",
         "secondo": "16.30",
-        "terzo": "22.00"},
+        "terzo": "22.00"
+      },
+      "martedì": {
+        "primo": "10.20",
+        "secondo": "16.30",
+        "terzo": "22.00"
+      },
+      "mercoledì": {
+        "primo": "10.20",
+        "secondo": "16.30",
+        "terzo": "22.00"
+      },
+      "giovedì": {
+        "primo": "10.20",
+        "secondo": "16.30",
+        "terzo": "22.00"
+      },
+      "venerdì": {
+        "primo": "10.20",
+        "secondo": "16.30",
+        "terzo": "22.00"
+      }
+    },
     "sinossi": "Frank Sheeran è un veterano della Seconda Guerra Mondiale e un autista di camion quando incontra l'uomo del destino, Russell Bufalino, boss della mafia a Filadelfia, che vede in lui il tratto principale di un buon ufficiale: l'affidabilità. Le famiglie di Frank e Russell stringono un'amicizia che va al di là (ma non al di sopra, come vedremo) del business. Russell è così fiero di Frank che lo presenta a Jimmy Hoffa, il capo del sindacato dei camionisti, più popolare di Elvis e dei Beatles messi insieme. Hoffa è vulcanico e brillante, calcolatore e stratega, ma anche affettuoso e seducente. Frank non è immune al suo carisma e diventa il suo guardiaspalle, il suo consigliere e, forse, il suo miglior amico. Il viaggio di questi tre personaggi attraverso gli Stati Uniti e la Storia americana è la stoffa di cui è fatto il cinema."
   },
   {
@@ -21,12 +44,38 @@
     "genere": "Storico, drammatico",
     "durata": "132'",
     "cast": "Jean Dujardin, Louis Garrel, Emmanuelle Seigner",
-    "orari": {
+    "orari":{
+      "lunedì": {
         "primo": "11.00",
         "secondo": "14.00",
         "terzo": "17.30",
         "quarto": "21.45"
       },
+      "martedì": {
+        "primo": "12.00",
+        "secondo": "15.20",
+        "terzo": "18.30",
+        "quarto": "22.30"
+      },
+      "mercoledì": {
+        "primo": "11.00",
+        "secondo": "14.00",
+        "terzo": "17.30",
+        "quarto": "21.45"
+      },
+      "giovedì": {
+        "primo": "11.00",
+        "secondo": "14.00",
+        "terzo": "17.30",
+        "quarto": "21.45"
+      },
+      "venerdì": {
+        "primo": "11.00",
+        "secondo": "14.00",
+        "terzo": "17.30",
+        "quarto": "21.45"
+      }
+    },
     "sinossi": "Nel 1894, il capitano francese Alfred Dreyfus, quarantenne ufficiale di origini ebraiche, viene ingiustamente accusato di tradimento e spionaggio, e condannato all'ergastolo da scontarsi sulla temibile Isola del Diavolo, nella Guyana francese."
   },
 
@@ -38,12 +87,38 @@
     "genere": "Commedia, thriller",
     "durata": "161'",
     "cast": "Leonardo DiCaprio, Brad Pitt, Margot Robbie",
-    "orari": {
+    "orari":{
+      "lunedì": {
         "primo": "12.00",
         "secondo": "15.20",
         "terzo": "18.30",
         "quarto": "22.30"
       },
+      "martedì": {
+        "primo": "12.00",
+        "secondo": "15.20",
+        "terzo": "18.30",
+        "quarto": "22.30"
+      },
+      "mercoledì": {
+        "primo": "12.00",
+        "secondo": "15.20",
+        "terzo": "18.30",
+        "quarto": "22.30"
+      },
+      "giovedì": {
+        "primo": "12.00",
+        "secondo": "15.20",
+        "terzo": "18.30",
+        "quarto": "22.30"
+      },
+      "venerdì": {
+        "primo": "12.00",
+        "secondo": "15.20",
+        "terzo": "18.30",
+        "quarto": "22.30"
+      }
+    },
     "sinossi": "Rick Dalton, attore televisivo di telefilm western in declino, e la sua controfigura Cliff Booth cercano di ottenere ingaggi e fortuna nell'industria cinematografica al tramonto dell'età dell'oro di Hollywood."
   }
 ]
