@@ -8,3 +8,14 @@
     font-size: 60pt;
     text-align: center;
 }
+
+
+.linkFooter{
+    color: #fef1e7;
+    text-decoration: none;
+}
+
+.linkFooter:hover {
+    color: #6996b3;
+    text-decoration: none;
+}

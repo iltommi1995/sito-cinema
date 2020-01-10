@@ -1,6 +1,6 @@
 
 import React from 'react';
-
+import "./css/general.css";
 
 import Header from "./components/mainLayout/header/header"
 import Footer from "./components/mainLayout/footer/footer";
@@ -13,10 +13,10 @@ function App() {
   return (
       <div>
           <Header />
-          <div className="container" style={{
-              "margin-top":"70px"
-          }}>
-              <MainTemplate/>
+          <div className="mainBody" >
+              <div className="container" style={{"margin-top":"70px"}}>
+                  <MainTemplate/>
+              </div>
           </div>
           <Footer />
       </div>

@@ -1,36 +1,27 @@
 
 import React from "react";
 
+import {Link} from "react-router-dom";
+
 
 import "../../../css/components/mainLayout/footer/footer.css";
 
 function Footer() {
     return(
         <footer style={{
-            "background-color": "#6c0606",
+            "background-color": "#983232",
             "color": "#fef1e7"
         }}>
             <div className="container-fluid padding">
                 <div className="row text-center">
                     <div className="col-md-4">
-                        <img src="img/logo.png" style={{
-                            "width": "150px"
-                        }} />
-                        <hr style={{
-                            "backgroundColor": "#fef1e7"
-                        }}></hr>
-                        <p>
-                            123-456-789
-                        </p>
-                        <p>
-                            Email
-                        </p>
-                        <p>
-                            Indirizzo
-                        </p>
-                        <p>
-                            Codice postale
-                        </p>
+                        <hr style={{"backgroundColor": "#fef1e7"}}></hr>
+                        <h5>MENU</h5>
+                        <hr style={{"backgroundColor": "#fef1e7"}}></hr>
+                        <p><Link to="/" className="linkFooter">Home</Link></p>
+                        <p><Link to="/orariFilmBicocca" className="linkFooter">Cinema Milano Bicocca</Link></p>
+                        <p><Link to="/orariFilmCentrale" className="linkFooter">Cinema Milano Centrale</Link></p>
+                        <p><Link to="/cercaFilm" className="linkFooter">Cerca film</Link></p>
                     </div>
                     <div className="col-md-4">
                         <hr style={{

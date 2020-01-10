@@ -24,11 +24,13 @@ const NavLogout = (props) => {
 
     return (
         <div>
-            <Navbar color="navbar  fixed-top bg-light" light expand="md" style={{
-                "zIndex":"200"
+            <Navbar color="navbar  fixed-top" light expand="md" style={{
+                "zIndex":"200",
+                "background-color": "#983232",
+                "color": "#fef1e7"
             }}>
                 <div className="container">
-                    <NavbarBrand><Link to="/"><img src="/img/logo.png" style={{"width":"150px"}}/></Link></NavbarBrand>
+                    <NavbarBrand><Link to="/"><img src="/img/logo.png" style={{"width":"120px"}}/></Link></NavbarBrand>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="mr-auto" navbar>
