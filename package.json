@@ -21,7 +21,7 @@
   },
   "scripts": {
     "client-install": "npm install --prefix client",
-    "heroku-postbuild": "cd sito-cinema && yarn && yarn run build",
+    "heroku-postbuild": "npm run build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
