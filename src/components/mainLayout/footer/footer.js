@@ -6,12 +6,19 @@ import "../../../css/components/mainLayout/footer/footer.css";
 
 function Footer() {
     return(
-        <footer>
+        <footer style={{
+            "background-color": "#6c0606",
+            "color": "#fef1e7"
+        }}>
             <div className="container-fluid padding">
                 <div className="row text-center">
                     <div className="col-md-4">
-                        <h3>SDV CINEMAS</h3>
-                        <hr className="light"></hr>
+                        <img src="img/logo.png" style={{
+                            "width": "150px"
+                        }} />
+                        <hr style={{
+                            "backgroundColor": "#fef1e7"
+                        }}></hr>
                         <p>
                             123-456-789
                         </p>
@@ -26,23 +33,33 @@ function Footer() {
                         </p>
                     </div>
                     <div className="col-md-4">
-                        <hr className="light"></hr>
+                        <hr style={{
+                            "backgroundColor": "#fef1e7"
+                        }}></hr>
                         <h5>I NOSTRI ORARI</h5>
-                        <hr className="light"></hr>
+                        <hr style={{
+                            "backgroundColor": "#fef1e7"
+                        }}></hr>
                         <p>Blablabla</p>
                         <p>Blablabla</p>
                         <p>Blablabla</p>
                     </div>
                     <div className="col-md-4">
-                        <hr className="light"></hr>
+                        <hr style={{
+                            "backgroundColor": "#fef1e7"
+                        }}></hr>
                         <h5>I NOSTRI ORARI</h5>
-                        <hr className="light"></hr>
+                        <hr style={{
+                            "backgroundColor": "#fef1e7"
+                        }}></hr>
                         <p>Blablabla</p>
                         <p>Blablabla</p>
                         <p>Blablabla</p>
                     </div>
                     <div className="col-12">
-                        <hr className="light"></hr>
+                        <hr style={{
+                            "backgroundColor": "#fef1e7"
+                        }}></hr>
                         <h5>© SDVCinemas</h5>
                     </div>
                 </div>
