@@ -1,7 +1,7 @@
 {
   "buildpacks": [
     {
-      "url": "https://github.com/iltommi1995/sito-cinema/"
+      "url": "iltommi1995/sito-cinema/"
     }
   ]
 }
