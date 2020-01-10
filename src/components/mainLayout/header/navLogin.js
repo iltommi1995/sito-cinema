@@ -28,7 +28,7 @@ const NavLogin = (props) => {
                 "zIndex":"200"
             }}>
                 <div className="container">
-                    <NavbarBrand><Link to="/">SDV Cinema</Link></NavbarBrand>
+                    <NavbarBrand><Link to="/"><img src="/img/logo.jpg" style={{"width":"50px"}}/></Link></NavbarBrand>
                     <NavbarToggler onClick={toggle} />
                     <Collapse isOpen={isOpen} navbar>
                         <Nav className="mr-auto" navbar>

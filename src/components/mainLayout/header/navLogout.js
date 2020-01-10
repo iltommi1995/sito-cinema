@@ -1,7 +1,7 @@
 
 import React from "react";
 import {Link} from "react-router-dom";
-//
+
 import {
     Collapse,
     Navbar,
@@ -16,7 +16,7 @@ import {
     DropdownItem,
     NavbarText
 } from 'reactstrap';
-//
+
 const NavLogout = (props) => {
     const [isOpen, setIsOpen] = React.useState(false);
 
@@ -28,7 +28,7 @@ const NavLogout = (props) => {
                 "zIndex":"200"
             }}>
                 <div className="container">
-                    <NavbarBrand><Link to="/">SDV Cinema</Link></NavbarBrand>
+                    <NavbarBrand><Link to="/"><img src="/img/logo.jpg" style={{"width":"50px"}}/></Link></NavbarBrand>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="mr-auto" navbar>
