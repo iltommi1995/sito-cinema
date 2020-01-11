@@ -12,12 +12,12 @@ class Home extends Component {
                     Presso il multisala SDV Cinema- Bicocca, si possono vedere i maggiori film del momento.
                     SDV Cinema- Centrale invece può vantare una ricercata selezione di film d'essai.
                 </p>
-                <h2 className="titoliCentrati">Visita le nostre sale</h2>
+                <h2 className="titoliCentrati">VISITA LE NOSTRE SALE</h2>
                 <div className="row text-center">
                     <div className="col-md-1"></div>
                     <div className="col-md-4">
                         <img src="img/cinema_bicocca.png" className="imgCinemaHome" />
-                        <h3>Cinema Milano Bicocca</h3>
+                        <h3>CINEMA MILANO BICOCCA</h3>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -30,7 +30,7 @@ class Home extends Component {
                     <div className="col-md-2"></div>
                     <div className="col-md-4">
                         <img src="img/cinema_centrale.png" className="imgCinemaHome" />
-                        <h3>Cinema Milano Centrale</h3>
+                        <h3>CINEMA MILANO CENTRALE</h3>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco

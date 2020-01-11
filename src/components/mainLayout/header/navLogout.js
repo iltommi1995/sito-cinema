@@ -35,12 +35,12 @@ const NavLogout = (props) => {
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="mr-auto" navbar>
                         <UncontrolledDropdown nav inNavbar>
-                            <DropdownToggle nav caret>
+                            <DropdownToggle nav caret className="linkNav">
                                 Scegli cinema
                             </DropdownToggle>
                             <DropdownMenu right>
                                 <DropdownItem>
-                                    <Link to="/orariFilmBicocca">Milano Bicocca</Link>
+                                    <Link to="/orariFilmBicocca" >Milano Bicocca</Link>
                                 </DropdownItem>
                                 <DropdownItem>
                                     <Link to="/orariFilmCentrale">Milano Centrale</Link>
@@ -52,7 +52,7 @@ const NavLogout = (props) => {
                             </DropdownMenu>
                         </UncontrolledDropdown>
                         <NavItem>
-                            <NavLink><Link to="/cercaFilm">Cerca film</Link></NavLink>
+                            <NavLink><Link to="/cercaFilm" className="linkNav">Cerca film</Link></NavLink>
                         </NavItem>
 
 
