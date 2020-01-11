@@ -31,19 +31,18 @@ function Footer() {
                         <hr style={{
                             "backgroundColor": "#fef1e7"
                         }}></hr>
-                        <p>Blablabla</p>
-                        <p>Blablabla</p>
-                        <p>Blablabla</p>
+                        <p>Dal lunedì al venerdì: 10.00-1.00</p>
+                        <p>Sabato e domenica: 10.00-2.00</p>
                     </div>
                     <div className="col-md-4">
                         <hr style={{
                             "backgroundColor": "#fef1e7"
                         }}></hr>
-                        <h5>I NOSTRI ORARI</h5>
+                        <h5>DOVE SIAMO</h5>
                         <hr style={{
                             "backgroundColor": "#fef1e7"
                         }}></hr>
-                        <p>Blablabla</p>
+                        <p>Cinema Milano Bicocca: viale Sarca 235</p>
                         <p>Blablabla</p>
                         <p>Blablabla</p>
                     </div>

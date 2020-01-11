@@ -1,6 +1,7 @@
 
 import {DropdownItem, DropdownMenu, DropdownToggle, Nav, UncontrolledDropdown} from "reactstrap";
 import React, {Component} from "react";
+import "../../../css/components/mainLayout/header/header.css"
 
 import NavLogout from "./navLogout";
 import NavLogin from "./navLogin";

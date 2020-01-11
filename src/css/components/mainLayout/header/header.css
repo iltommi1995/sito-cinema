@@ -1,0 +1,9 @@
+.linkNav{
+    color: #fef1e7;
+    text-decoration: none;
+}
+
+.linkNav:hover {
+    color: #6996b3;
+    text-decoration: none;
+}
