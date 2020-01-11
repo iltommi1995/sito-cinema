@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27560cf9-406f-4bfb-84d3-088a056890be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/css/components/mainLayout/header/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/mainLayout/footer/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mainLayout/footer/footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/mainLayout/header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mainLayout/header/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/mainLayout/header/navLogout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mainLayout/header/navLogout.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,7 +19,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/mainLayout/header/header.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+              <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
               <folding>
                 <element signature="e#1#98#0" expanded="true" />
               </folding>
@@ -45,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/mainLayout/header/navLogout.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="50" column="47" lean-forward="true" selection-start-line="50" selection-start-column="47" selection-end-line="50" selection-end-column="47" />
+              <caret line="50" column="47" selection-start-line="50" selection-start-column="47" selection-end-line="50" selection-end-column="47" />
               <folding>
                 <element signature="e#1#27#0" expanded="true" />
               </folding>
@@ -56,8 +51,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/mainLayout/footer/footer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="34" column="56" selection-start-line="34" selection-start-column="56" selection-end-line="34" selection-end-column="56" />
+            <state relative-caret-position="188">
+              <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -141,8 +136,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="481" />
-    <option name="y" value="48" />
+    <option name="x" value="321" />
+    <option name="y" value="27" />
     <option name="width" value="1499" />
     <option name="height" value="1030" />
   </component>
@@ -304,15 +299,15 @@
       <workItem from="1578667856990" duration="42000" />
       <workItem from="1578668024164" duration="5548000" />
       <workItem from="1578678900972" duration="825000" />
-      <workItem from="1578687713216" duration="873000" />
+      <workItem from="1578687713216" duration="1595000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76079000" />
+    <option name="totallyTimeSpent" value="76801000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="385" y="39" width="1199" height="824" extended-state="0" />
+    <frame x="257" y="22" width="1199" height="824" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24010327" />
@@ -558,7 +553,7 @@
     <entry file="file://$PROJECT_DIR$/src/components/mainLayout/header/header.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
           <folding>
             <element signature="e#1#98#0" expanded="true" />
           </folding>
@@ -575,7 +570,7 @@
     <entry file="file://$PROJECT_DIR$/src/components/mainLayout/header/navLogout.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="50" column="47" lean-forward="true" selection-start-line="50" selection-start-column="47" selection-end-line="50" selection-end-column="47" />
+          <caret line="50" column="47" selection-start-line="50" selection-start-column="47" selection-end-line="50" selection-end-column="47" />
           <folding>
             <element signature="e#1#27#0" expanded="true" />
           </folding>
@@ -584,8 +579,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/mainLayout/footer/footer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="34" column="56" selection-start-line="34" selection-start-column="56" selection-end-line="34" selection-end-column="56" />
+        <state relative-caret-position="188">
+          <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
         </state>
       </provider>
     </entry>

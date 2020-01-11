@@ -43,7 +43,7 @@ function Footer() {
                             "backgroundColor": "#fef1e7"
                         }}></hr>
                         <p>Cinema Milano Bicocca: viale Sarca 235</p>
-                        <p>Blablabla</p>
+                        <p>blobloblo</p>
                         <p>Blablabla</p>
                     </div>
                     <div className="col-12">
