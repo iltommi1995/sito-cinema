@@ -38,7 +38,7 @@ function Footer() {
                         <hr style={{
                             "backgroundColor": "#fef1e7"
                         }}></hr>
-                        <h5>DOVE ALLAN NON AGGIORNA</h5>
+                        <h5>DOVE SIAMO</h5>
                         <hr style={{
                             "backgroundColor": "#fef1e7"
                         }}></hr>

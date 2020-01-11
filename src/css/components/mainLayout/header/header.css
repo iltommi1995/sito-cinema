@@ -7,3 +7,24 @@
     color: #6996b3;
     text-decoration: none;
 }
+
+#dropdownMenu {
+    background-color: #983232;
+}
+
+#dropdownToggle-navLogout {
+    color: #fef1e7;
+}
+
+#dropdownToggle-navLogout:hover {
+    color: #6996b3;
+}
+
+#dropdownItem:hover {
+    background-color: #983232;
+}
+
+#dropdownItem2:hover {
+    background-color: #983232;
+}
+

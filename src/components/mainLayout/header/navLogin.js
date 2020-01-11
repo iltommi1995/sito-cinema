@@ -52,14 +52,14 @@ const NavLogin = (props) => {
                                 </DropdownMenu>
                             </UncontrolledDropdown>
                             <NavItem>
-                                <NavLink><Link to="/cercaFilm">Cerca film</Link></NavLink>
+                                <NavLink><Link to="/cercaFilm" className="linkNav">Cerca film</Link></NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink><Link to="/areaPersonale">Area Personale</Link></NavLink>
+                                <NavLink><Link to="/areaPersonale" className="linkNav">Area Personale</Link></NavLink>
                             </NavItem>
 
                         </Nav>
-                        <Nav>
+                        <Nav >
                             {props.login.button}
                         </Nav>
                     </Collapse>

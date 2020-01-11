@@ -2,6 +2,7 @@
 import React from "react";
 import {Link} from "react-router-dom";
 
+
 import {
     Collapse,
     Navbar,
@@ -35,20 +36,17 @@ const NavLogout = (props) => {
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="mr-auto" navbar>
                         <UncontrolledDropdown nav inNavbar>
-                            <DropdownToggle nav caret className="linkNav">
+                            <DropdownToggle nav caret  id="dropdownToggle-navLogout">
                                 Scegli cinema
                             </DropdownToggle>
-                            <DropdownMenu right>
-                                <DropdownItem>
-                                    <Link to="/orariFilmBicocca" >Milano Bicocca</Link>
+                            <DropdownMenu right id="dropdownMenu">
+                                <DropdownItem id="dropdownItem">
+                                    <Link to="/orariFilmBicocca" className="linkNav">Milano Bicocca</Link>
                                 </DropdownItem>
-                                <DropdownItem>
-                                    <Link to="/orariFilmCentrale">Milano Centrale</Link>
+                                <DropdownItem id="dropdownItem2">
+                                    <Link to="/orariFilmCentrale" className="linkNav">Milano Centrale</Link>
                                 </DropdownItem>
-                                <DropdownItem divider />
-                                <DropdownItem>
-                                    Reset
-                                </DropdownItem>
+
                             </DropdownMenu>
                         </UncontrolledDropdown>
                         <NavItem>
@@ -57,7 +55,7 @@ const NavLogout = (props) => {
 
 
                     </Nav>
-                    <Nav>
+                    <Nav >
                         {props.login.button}
                     </Nav>
                 </Collapse>

@@ -1,7 +1,7 @@
 
 import {DropdownItem, DropdownMenu, DropdownToggle, Nav, UncontrolledDropdown} from "reactstrap";
 import React, {Component} from "react";
-import "../../../css/components/mainLayout/header/header.css"
+import "../../../css/components/mainLayout/header/header.css";
 
 import NavLogout from "./navLogout";
 import NavLogin from "./navLogin";
@@ -55,7 +55,7 @@ class Header extends Component {
                             Nome utente: <input type="text"></input>
                             Password: <input type="text"></input>
                             <DropdownItem divider />
-                            <button value="login" onClick={this.handleClick}>{testoBottone}</button>
+                            <button value="login" onClick={this.handleClick} id="bottone-login">{testoBottone}</button>
                         </DropdownMenu>
                     </div>
 
