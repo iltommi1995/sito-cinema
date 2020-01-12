@@ -6,18 +6,18 @@ class Home extends Component {
     render() {
         return(
             <div >
-                <h1>BENVENUTI DA SDV CINEMAS</h1>
+                <h1 className="acca1">BENVENUTI DA SDV CINEMAS</h1>
                 <p>SDV Cinemas è una catena di multisala in espansione, con al momento due complessi, entrambi a Milano.
                     Con una distribuzione variegata SDV Cinemas cerca di accontentare tutti i tipi di spettatori.
                     Presso il multisala SDV Cinema- Bicocca, si possono vedere i maggiori film del momento.
                     SDV Cinema- Centrale invece può vantare una ricercata selezione di film d'essai.
                 </p>
-                <h2 className="titoliCentrati">VISITA LE NOSTRE SALE</h2>
+                <h2 className="titoliCentrati acca2">VISITA LE NOSTRE SALE</h2>
                 <div className="row text-center">
                     <div className="col-md-1"></div>
                     <div className="col-md-4">
-                        <img src="img/cinema_bicocca.png" className="imgCinemaHome" />
-                        <h3>CINEMA MILANO BICOCCA</h3>
+                        <img src="img/cinema_bicocca.png" className="imgCinemaHome" alt="cinema milano bicocca"/>
+                        <h3 className="acca3">CINEMA MILANO BICOCCA</h3>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -29,8 +29,8 @@ class Home extends Component {
                     </div>
                     <div className="col-md-2"></div>
                     <div className="col-md-4">
-                        <img src="img/cinema_centrale.png" className="imgCinemaHome" />
-                        <h3>CINEMA MILANO CENTRALE</h3>
+                        <img src="img/cinema_centrale.png" className="imgCinemaHome" alt="cinema milano centrale"/>
+                        <h3 className="acca3">CINEMA MILANO CENTRALE</h3>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco

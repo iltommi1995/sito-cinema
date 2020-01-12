@@ -24,7 +24,7 @@ const NavLogin = (props) => {
 
     return (
         <div >
-            <Navbar color="navbar  fixed-top" light expand="md" style={{
+            <Navbar className="navbar fixed-top"  expand="md" style={{
                 "zIndex":"200",
                 "background-color": "#983232",
                 "color": "#fef1e7"

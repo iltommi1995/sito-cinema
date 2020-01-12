@@ -1,0 +1,17 @@
+.img-scheda-film {
+    width: 200px;
+}
+
+.orario-film {
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.scheda-film {
+    margin-top:70px;
+}
+
+.titoloOrariFilm {
+    margin-bottom: 20px;
+}

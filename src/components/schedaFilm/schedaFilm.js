@@ -1,6 +1,8 @@
 
 import React, { useState } from 'react';
 import {Button, Modal, ModalHeader, ModalBody, ModalFooter, Col} from 'reactstrap';
+import "../../css/components/schedaFilm/schedaFilm.css";
+
 
 const ModalExample = (props) => {
     const {
@@ -22,14 +24,16 @@ const ModalExample = (props) => {
     const externalCloseBtn = <button className="close" style={{ position: 'absolute', top: '15px', right: '15px' }} onClick={toggle}>&times;</button>;
     return (
         <div>
-            <Button color="danger" onClick={toggle}>{buttonLabel}</Button>
-            <Modal isOpen={modal} toggle={toggle} className={className} external={externalCloseBtn}>
-                <ModalHeader >Scheda del film</ModalHeader>
-                <ModalBody>
+            <Button id="bottoneApriSchedaFilm" onClick={toggle}>{buttonLabel}</Button>
+            <Modal isOpen={modal} toggle={toggle} className={className} external={externalCloseBtn} id="bellazio">
+                <ModalHeader className="headerModal" style={{"borderBottomColor":"#983232"}}>
+                    <h2 className="acca2 titoloFilmSchedaFilm">{nomeFilm}</h2>
+                </ModalHeader>
+                <ModalBody className="bodyModal">
                     <div style={{height: '250px'}}>
-                        <img src={immagine} style={{width: '150px', float: 'left'}}></img>
+                        <img src={immagine} alt="immagine locandina" className="imgSchedaFilm"></img>
                         <div style={{float: 'right', width: '300px'}}>
-                            <b>{nomeFilm}</b><br /> <br/>
+                            <br/>
                             <p><b>Regia:</b> {regista}</p>
                             <p><b>Genere:</b> {genere}</p>
                             <p><b>Durata:</b> {durata}</p>
@@ -39,8 +43,8 @@ const ModalExample = (props) => {
                     <br/>
                     <p>{sinossi}</p>
                 </ModalBody>
-                <ModalFooter>
-                    <Button color="secondary" onClick={toggle}>Chiudi</Button>
+                <ModalFooter className="footerModal" style={{"borderTopColor":"#983232"}}>
+                    <Button id="bottoneSchedaFilm" onClick={toggle}>Chiudi</Button>
                 </ModalFooter>
             </Modal>
         </div>

@@ -11,7 +11,7 @@ class OrariFilmCentrale extends Component {
     render() {
         return(
             <div>
-                <h2>Cinema Milano Centrale. </h2>
+                <h1 className="acca1">Cinema Milano Centrale. </h1>
 
                 {
                     FilmData.map(filmDetail =><SchedaOrariFilmV2 film={filmDetail} />)}

@@ -1,20 +1,22 @@
 import React from "react";
 import {Col, Row} from "reactstrap";
 import ModalExample from "../schedaFilm/schedaFilm";
+import "../../css/components/orariFilm/schedaOrariFilm.css";
+
 
 function schedaGiorni (data, day) {
     return(
-        <Row>
-            <div className="giorno">
-                <h4 className="h4-giorno">{day}</h4>
+        <div className="row">
+            <div className="col-md-4 giorno">
+                <b className="h4-giorno">{day}:</b>
             </div>
-            <div>
+            <div className="col-md-8">
                 <p className="orario-film">{data.primo}</p>
                 <p className="orario-film">{data.secondo}</p>
                 <p className="orario-film">{data.terzo}</p>
                 <p className="orario-film">{data.quarto}</p>
             </div>
-        </Row>
+        </div>
 
     )
 }
@@ -22,36 +24,42 @@ function schedaGiorni (data, day) {
 function SchedaOrariFilmV2 (data) {
     return(
         <container>
-            <Row className="scheda-film">
-                <Col md="3">
-
+            <div className="row scheda-film">
+                <div className="col-md-3">
                     <img src={data.film.img} alt="immagine" className="img-scheda-film"/>
-                </Col>
-                <Col md="3" >
-                    <h3>{data.film.titolo}</h3>
-                    <br/>
-                    <p><b>Regia:</b> {data.film.regista}</p>
-                    <p><b>Genere:</b> {data.film.genere}</p>
-                    <p><b>Durata:</b> {data.film.durata}</p>
-                    <p><b>Cast:</b> {data.film.cast}</p>
-                    <ModalExample
-                        buttonLabel="Scheda del Film"
-                        nomeFilm={data.film.titolo}
-                        regista={data.film.regista}
-                        genere={data.film.genere}
-                        durata={data.film.durata}
-                        cast={data.film.cast}
-                        sinossi={data.film.sinossi}
-                        immagine={data.film.img}
-                    />
-                </Col>
-                <Col md="6" className="colonna-orari">
+                </div>
+                <div className="col-md-9">
+                    <div className="row">
+                        <div className="col-md-9">
+                            <h2 className="acca2 titoloOrariFilm">{data.film.titolo}</h2>
+                        </div>
+                    </div>
+                    <div className="row">
+                    <div className="col-md-4" >
+                        <p><b>Regia:</b> {data.film.regista}</p>
+                        <p><b>Genere:</b> {data.film.genere}</p>
+                        <p><b>Durata:</b> {data.film.durata}</p>
+                        <p><b>Cast:</b> {data.film.cast}</p>
+                        <ModalExample
+                            buttonLabel="Scheda del Film"
+                            nomeFilm={data.film.titolo}
+                            regista={data.film.regista}
+                            genere={data.film.genere}
+                            durata={data.film.durata}
+                            cast={data.film.cast}
+                            sinossi={data.film.sinossi}
+                            immagine={data.film.img}
+                        />
+                    </div>
+                    <div className="col-md-8">
 
-                        { Object.keys(data.film.orari).map(key =>
-                            schedaGiorni(data.film.orari[key], key)
-                        )}
-                </Col>
-            </Row>
+                            { Object.keys(data.film.orari).map(key =>
+                                schedaGiorni(data.film.orari[key], key)
+                            )}
+                    </div>
+                    </div>
+            </div>
+            </div>
 
         </container>
 
