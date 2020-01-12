@@ -15,3 +15,24 @@
     color: #6996b3;
     text-decoration: none;
 }
+
+.socialIconOn {
+    width: 30px;
+    margin-top:15px;
+}
+
+.socialIconOff {
+    width: 30px;
+    margin-top:15px;
+}
+
+.socialIconOff, .linkSocial:hover .socialIconOn{
+    display:none;
+}
+.socialIconOn, .linkSocial:hover .socialIconOff{
+    display: block;
+}
+
+.linkSocial {
+    width:30px;
+}

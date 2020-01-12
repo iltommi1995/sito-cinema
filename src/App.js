@@ -14,7 +14,7 @@ function App() {
       <div>
           <Header />
           <div className="mainBody" >
-              <div className="container" style={{"margin-top":"70px"}}>
+              <div className="container" >
                   <MainTemplate/>
               </div>
           </div>
