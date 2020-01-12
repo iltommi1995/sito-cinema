@@ -7,10 +7,10 @@ import "../../css/components/orariFilm/schedaOrariFilm.css";
 function schedaGiorni (data, day) {
     return(
         <div className="row">
-            <div className="col-md-4 giorno">
+            <div className="col-md-4 giorno col-sm-12 col-xs-12">
                 <b className="h4-giorno">{day}:</b>
             </div>
-            <div className="col-md-8">
+            <div className="col-md-8 col-sm-12 col-xs-12">
                 <p className="orario-film">{data.primo}</p>
                 <p className="orario-film">{data.secondo}</p>
                 <p className="orario-film">{data.terzo}</p>
@@ -25,17 +25,17 @@ function SchedaOrariFilmV2 (data) {
     return(
         <container>
             <div className="row scheda-film">
-                <div className="col-md-3">
+                <div className="col-md-3 col-sm-12 col-xs-12">
                     <img src={data.film.img} alt="immagine" className="img-scheda-film"/>
                 </div>
-                <div className="col-md-9">
+                <div className="col-md-9 col-sm-12 col-xs-12">
                     <div className="row">
-                        <div className="col-md-9">
+                        <div className="col-md-9 col-sm-12 col-xs-12">
                             <h2 className="acca2 titoloOrariFilm">{data.film.titolo}</h2>
                         </div>
                     </div>
                     <div className="row">
-                    <div className="col-md-4" >
+                    <div className="col-md-4 col-sm-12 col-xs-12" >
                         <p><b>Regia:</b> {data.film.regista}</p>
                         <p><b>Genere:</b> {data.film.genere}</p>
                         <p><b>Durata:</b> {data.film.durata}</p>
