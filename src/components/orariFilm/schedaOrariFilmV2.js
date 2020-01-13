@@ -25,10 +25,10 @@ function SchedaOrariFilmV2 (data) {
     return(
         <container>
             <div className="row scheda-film">
-                <div className="col-md-3">
+                <div className="col-md-3 col-xs-12 col-sm-12">
                     <img src={data.film.img} alt="immagine" className="img-scheda-film"/>
                 </div>
-                <div className="col-md-9">
+                <div className="col-md-9 col-xs-12 col-sm-12">
                     <div className="row">
                         <div className="col-md-9">
                             <h2 className="acca2 titoloOrariFilm">{data.film.titolo}</h2>
@@ -51,7 +51,7 @@ function SchedaOrariFilmV2 (data) {
                             immagine={data.film.img}
                         />
                     </div>
-                    <div className="col-md-8">
+                    <div className="col-md-8 col-xs-12 col-sm-12">
 
                             { Object.keys(data.film.orari).map(key =>
                                 schedaGiorni(data.film.orari[key], key)
