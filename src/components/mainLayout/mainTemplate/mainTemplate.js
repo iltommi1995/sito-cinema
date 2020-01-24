@@ -7,6 +7,8 @@ import OrariFilmCentrale from "../../orariFilm/orariFilmCentrale";
 import {Switch, Route} from "react-router-dom";
 import CercaFilm from "../../cercaFilm/cercaFilm";
 import AreaPersonale from "../../areaPersonale/areaPersonale";
+import Articolo from "../../blog/articoli/articolo";
+import Blog from "../../blog/blog";
 
 
 function MainTemplate() {
@@ -18,6 +20,8 @@ function MainTemplate() {
                 <Route path={"/orariFilmCentrale"} component={OrariFilmCentrale}/>
                 <Route path={"/cercaFilm"} component={CercaFilm}/>
                 <Route path={"/areaPersonale"} component={AreaPersonale}/>
+                <Route path={"/blog"} component={Blog}/>
+                <Route exact path='/articoli/:id' component={Articolo} />
             </Switch>
         </div>
     )

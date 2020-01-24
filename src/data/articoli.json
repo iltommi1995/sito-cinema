@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "titolo": "Articolo 1",
+    "testo": "Testo dell'articolo 1"
+  },
+  {
+    "id": 2,
+    "titolo": "Articolo 2",
+    "testo": "Testo dell'articolo 2"
+  }
+]

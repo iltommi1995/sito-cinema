@@ -9,8 +9,8 @@ import {
     NavbarToggler,
     NavbarBrand,
     Nav,
-    NavItem,
     NavLink,
+    NavItem,
     UncontrolledDropdown,
     DropdownToggle,
     DropdownMenu,
@@ -50,9 +50,11 @@ const NavLogout = (props) => {
                             </DropdownMenu>
                         </UncontrolledDropdown>
                         <NavItem>
-                            <NavLink><Link to="/cercaFilm" className="linkNav">Cerca film</Link></NavLink>
+                            <NavLink ><Link to="/cercaFilm"  className="linkNav">Cerca film</Link></NavLink>
                         </NavItem>
-
+                        <NavItem>
+                            <NavLink ><Link to="/blog"  className="linkNav">Blog</Link></NavLink>
+                        </NavItem>
 
                     </Nav>
                     <Nav >
