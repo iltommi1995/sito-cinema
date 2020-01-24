@@ -1,12 +1,44 @@
 [
   {
     "id": 1,
-    "titolo": "Articolo 1",
-    "testo": "Testo dell'articolo 1"
+    "titolo": "Prossima apertura in Porta Romana",
+    "img": "/img/articolo1Immagine.png",
+    "anteprima": "Magnus es, Domine, et laudabilis valde: magna virtus tua et sapientiae tuae non est numerus.",
+    "testo": "Magnus es, Domine, et laudabilis valde: magna virtus tua et sapientiae tuae non est numerus. Et laudare te vult homo, aliqua portio creaturae tuae, et homo circumferens mortalitatem suam, circumferens testimonium peccati sui et testimonium, quia superbis resistis; et tamen laudare te vult homo, aliqua portio creaturae tuae. Tu excitas, ut laudare te delectet, quia fecisti nos ad te et inquietum est cor nostrum, donec requiescat in te. Da mihi, Domine, scire et intellegere, utrum sit prius invocare te an laudare te et scire te prius sit an invocare te. Sed quis te invocat o nesciens te? Aliud enim pro alio potest invocare nesciens. An potius invocaris, ut sciaris? Quomodo autem invocabunt, in quem non crediderunt? Aut quomodo credunt sine praedicante? Et laudabunt Dominum qui requirunt eum. Quaerentes enim inveniunt eum et invenientes laudabunt eum. Quaeram te, Domine, invocans te et invocem te credens in te; praedicatus enim es nobis. Invocat te, Domine, fides mea, quam dedisti mihi, quam inspirasti mihi per humanitatem Filii tui, per ministerium praedicatoris tui."
   },
   {
     "id": 2,
-    "titolo": "Articolo 2",
-    "testo": "Testo dell'articolo 2"
+    "titolo": "In arrivo offerta sui pop corn grandi",
+    "img": "/img/articolo2Immagine.png",
+    "anteprima": "Furtum certe punit lex tua, domine, et lex scripta in cordibus hominum, quam ne ipsa quidem delet iniquitas.",
+    "testo": "Furtum certe punit lex tua, domine, et lex scripta in cordibus hominum, quam ne ipsa quidem delet iniquitas: quis enim fur aequo animo furem patitur? nec copiosus adactum inopia. et ego furtum facere volui, et feci, nulla conpulsus egestate, nisi penuria et fastidio iustitiae et sagina iniquitatis. nam id furatus sum, quod mihi abundabat et multa melius; nec ea re volebam frui, quam furto appetebam, sed ipso furto et peccato. arbor erat pirus in vicinia nostrae vineae, pomis onusta, nec forma nec sapore inlecebrosis. ad hanc excutiendam atque asportandam nequissimi adulescentuli perreximus nocte intempesta, quousque ludum de pestilentiae more in areis produxeramus, et abstulimus inde onera ingentia non ad nostras epulas, sed vel proicienda porcis, etiamsi aliquid inde comedimus, dum tamen fieret a nobis quod eo liberet, quo non liceret. ecce cor meum, deus, ecce cor meum, quod miseratus es in imo abyssi. dicat tibi nunc ecce cor meum, quid ibi quaerebat, ut essem gratis malus et malitiae meae causa nulla esset nisi malitia. foeda erat, et amavi eam; amavi perire, amavi defectum meum, non illud, ad quod deficiebam, sed defectum meum ipsum amavi, turpis anima et dissiliens a firmamento tuo in exterminium, non dedecore aliquid, sed dedecus appetens."
+  },
+  {
+    "id": 3,
+    "titolo": "Mercoledì al cinema a metà prezzo",
+    "img": "/img/articolo3Immagine.png",
+    "anteprima": "Quae quamquam ita sint in promptu, ut res disputatione non egeat, tamen sunt a nobis alio loco disputata.",
+    "testo": "Quae quamquam ita sint in promptu, ut res disputatione non egeat, tamen sunt a nobis alio loco disputata. Hae disciplinae igitur si sibi consentaneae velint esse, de officio nihil queant dicere, neque ulla officii praecepta firma, stabilia, coniuncta naturae tradi possunt, nisi aut ab iis, qui solam, aut ab iis, qui maxime honestatem propter se dicant expetendam. Ita propria est ea praeceptio Stoicorum, Academicorum, Peripateticorum, quoniam Aristonis, Pyrrhonis, Erilli iam pridem explosa sententia est, qui tamen haberent ius suum disputandi de officio, si rerum aliquem dilectum reliquissent, ut ad officii inventionem aditus esset. Sequemur igitur hoc quidem tempore et hac in quaestione potissimum Stoicos, non ut interpretes, sed, ut solemus, e fontibus eorum iudicio arbitrioque nostro quantum quoque modo videbitur, hauriemus.\n"
+  },
+  {
+    "id": 4,
+    "titolo": "Arrivano i Cinema Days!",
+    "img": "/img/articolo4Immagine.png",
+    "anteprima": "Decrevit quondam senatus, ut L. Opimius consul videret, ne quid res publica detrimenti caperet.",
+    "testo": "Decrevit quondam senatus, ut L. Opimius consul videret, ne quid res publica detrimenti caperet; nox nulla intercessit; interfectus est propter quasdam seditionum suspiciones C. Gracchus, clarissimo patre, avo, maioribus, occisus est cum liberis M. Fulvius consularis. Simili senatus consulto C. Mario et L. Valerio consulibus est permissa res publica; num unum diem postea L. Saturninum tribunum pl. et C. Servilium praetorem mors ac rei publicae poena remorata est? At [vero] nos vicesimum iam diem patimur hebescere aciem horum auctoritatis. Habemus enim huiusce modi senatus consultum, verum inclusum in tabulis tamquam in vagina reconditum, quo ex senatus consulto confestim te interfectum esse, Catilina, convenit. Vivis, et vivis non ad deponendam, sed ad confirmandam audaciam. Cupio, patres conscripti, me esse clementem, cupio in tantis rei publicae periculis me non dissolutum videri, sed iam me ipse inertiae nequitiaeque condemno."
+  },
+  {
+    "id": 5,
+    "titolo": "Arriva il nuovo menu hot dog",
+    "img": "/img/articolo5Immagine.png",
+    "anteprima": "Potestne tibi haec lux, Catilina, aut huius caeli spiritus esse iucundus, cum scias esse horum neminem.",
+    "testo": "Potestne tibi haec lux, Catilina, aut huius caeli spiritus esse iucundus, cum scias esse horum neminem, qui nesciat te pridie Kalendas Ianuarias Lepido et Tullo consulibus stetisse in comitio cum telo, manum consulum et principum civitatis interficiendorum causa paravisse, sceleri ac furori tuo non mentem aliquam aut timorem tuum sed fortunam populi Romani obstitisse? Ac iam illa omitto (neque enim sunt aut obscura aut non multa commissa postea); quotiens tu me designatum, quotiens consulem interficere conatus es! quot ego tuas petitiones ita coniectas, ut vitari posse non viderentur, parva quadam declinatione et, ut aiunt, corpore effugi! nihil [agis, nihil] adsequeris [, nihil moliris] neque tamen conari ac velle desistis."
+  },
+  {
+    "id": 6,
+    "titolo": "Rassegna oscar 2019",
+    "img": "/img/articolo6Immagine.png",
+    "anteprima": "Ego, quanta manus est coniuratorum, tantam me inimicorum multitudinem suscepisse video, sed eam turpem iudico.",
+    "testo": "Ego, quanta manus est coniuratorum, tantam me inimicorum multitudinem suscepisse video, sed eam turpem iudico et infirmam et abiectam. Tantam laudem, quanta vos me vestris decretis honestastis, nemo est assecutus: ceteris enim bene gesta re publica laudes tribuistis, mihi uni conservata re publica hanc gratulationem decrevistis. Sit Scipio clarus ille, cuius consilio atque virtute Hannibal in Africam redire atque Italia decedere coactus est; ornetur eximia laude alter Africanus, qui duas hurbes huic imperio infestissimas, Carthaginem Numantiamque delevit; habeatur vir egregius Paulus ille, cuius currum rex potentissimus quondam et nobilissimus, Perses, honestavit; sit aeterna gloria Marius, qui bis Italiam obsidione et metu servitutis liberavit; anteponatur omnibus Pompeius, cuius res gestae atque virtutes iisdem regionibus ac terminis continentur, quibus solis cursus (continetur): erit profecto inter horum laudes aliquid loci nostrae gloriae."
   }
 ]
