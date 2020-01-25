@@ -17,6 +17,7 @@ h1 {
 .acca1 {
     font-weight: bold;
     font-size: 3.5em;
+    margin-bottom: 30px;
 }
 
 h2 {
@@ -37,6 +38,7 @@ h3 {
 .acca3 {
     font-weight: 500;
     font-size: 1.9em;
+    margin-top: 20px;
 }
 
 p {

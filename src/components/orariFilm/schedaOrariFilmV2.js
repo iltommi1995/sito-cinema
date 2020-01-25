@@ -31,9 +31,9 @@ function SchedaOrariFilmV2 (data) {
             <div className="row scheda-film">
 
                 <div className="col-md-3 col-xs-12 col-sm-12">
-                    <img src={data.film.img} alt="immagine" className="img-scheda-film"/>
+                    <img src={data.film.img} alt="immagine" className="img-scheda-film" responsive/>
                 </div>
-                
+
                 <div className="col-md-9 col-xs-12 col-sm-12">
                     <div className="row">
                         <div className="col-xs-12">

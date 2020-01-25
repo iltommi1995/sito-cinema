@@ -44,10 +44,10 @@ class Header extends Component {
 
                 {this.state.isLoggedIn ?
                     <div>
-                        <DropdownMenu right>
+                        <DropdownMenu right id="dropdownLogin">
 
                             Sei Loggato.
-                            <DropdownItem divider />
+                            <div className="dropdown-divider" style={{"backgroundColor": "yellow"}}></div>
                             <button value="login" onClick={this.handleClick}>{testoBottone}</button>
                         </DropdownMenu>
                     </div>

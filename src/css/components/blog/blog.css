@@ -1,0 +1,22 @@
+#bottoneArticoloBlog {
+    background-color: #983232;
+    color: #fef1e7;
+}
+
+#bottoneArticoloBlog:hover {
+    background-color: #6996b3;
+}
+
+
+/* ARTICOLO BLOG.JS */
+
+.articolo-blog {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/* SCHEDA ARTICOLO.JS */
+
+.img-articolo {
+    width:100%;
+}

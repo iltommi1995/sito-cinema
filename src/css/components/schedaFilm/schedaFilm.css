@@ -3,6 +3,10 @@
     color: #fef1e7;
 }
 
+#bottoneApriSchedaFilm:hover {
+    background-color: #6996b3;
+}
+
 .titoloFilmSchedaFilm {
     margin-top: 10px;
 }
@@ -15,6 +19,10 @@
 #bottoneSchedaFilm {
     background-color: #983232;
     color: #fef1e7;
+}
+
+#bottoneSchedaFilm:hover {
+    background-color: #6996b3;
 }
 
 .headerModal {
