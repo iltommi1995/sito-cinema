@@ -25,7 +25,7 @@ class AreaPersonale extends Component {
                                 <br/>
                                 <p><b>Hai accumulato {UtenteDetail.punti} punti.</b></p>
                                 <br/>
-                                <p>Coi punti puoi prendere:</p>
+                                <p>Coi punti puoi prendere ahasha:</p>
                                 <ul>
                                     {UtenteDetail.punti >= 10 && (<li>{UtenteDetail.premi.num1}</li>)}
                                     {UtenteDetail.punti >= 20 && (<li>{UtenteDetail.premi.num2}</li>)}
