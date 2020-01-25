@@ -33,10 +33,10 @@ function SchedaOrariFilmV2 (data) {
                 <div className="col-md-3 col-xs-12 col-sm-12">
                     <img src={data.film.img} alt="immagine" className="img-scheda-film"/>
                 </div>
+                
                 <div className="col-md-9 col-xs-12 col-sm-12">
-
                     <div className="row">
-                        <div className="col-md-9 col-sm-12 col-xs-12">
+                        <div className="col-xs-12">
                             <h2 className="acca2 titoloOrariFilm">{data.film.titolo}</h2>
                         </div>
                     </div>
