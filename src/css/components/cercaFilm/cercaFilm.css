@@ -1,18 +1,12 @@
 .prova-nuovo {
-    display: inline-block;
     margin-top: 30px;
     margin-bottom: 30px;
-    width: 555px;
-    height: 350px;
 
 }
 
-#testoCercaFilm {
-    width: 300px;
-}
 
 .imgCercaFilm {
-    width: 200px;
+    width: 80%;
 }
 
 .bottoneScheda {

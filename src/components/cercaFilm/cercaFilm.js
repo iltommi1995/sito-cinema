@@ -30,8 +30,8 @@ class CercaFilm extends Component {
     render() {
         const {parolaRicerca, titoloFilm} = this.state;
         return (
-            <container>
-                <h2>FILM IN PROGRAMMAZIONE NEGLI SDV CINEMAS</h2>
+            <div>
+                <h1 className="acca1">Film in programmazione degli SDV Cinemas</h1>
                 <form>
                     <input type="text"
                            onChange={this.cercaTitoli}
@@ -39,14 +39,12 @@ class CercaFilm extends Component {
                            placeholder="Titolo film">
                     </input>
                 </form>
-                {
-                    titoloFilm.filter(searchingFor(parolaRicerca)).map(filmDetail =>
-                        <SchedaCercaFilm
-                            film={{img: filmDetail.img, id:filmDetail.id, regista:filmDetail.regista, genere:filmDetail.genere,
-                                durata:filmDetail.durata, cast:filmDetail.cast, titolo:filmDetail.titolo, sinossi:filmDetail.sinossi}}/>
-                    )
-                }
-            </container>
+
+                {titoloFilm.filter(searchingFor(parolaRicerca)).map(filmDetail =>
+                        <SchedaCercaFilm film={filmDetail}/>
+                    )}
+
+            </div>
         )
     }
 }

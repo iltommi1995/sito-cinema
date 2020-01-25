@@ -1,4 +1,6 @@
-.titoliCentrati {
+.acca2-home {
+    margin-top: 30px;
+    margin-bottom: 30px;
     text-align: center;
 }
 
@@ -11,7 +13,15 @@
     color: #fef1e7;
 }
 
+#bottoneHome1:hover {
+    background-color: #6996b3;
+}
+
 #bottoneHome2 {
     background-color: #983232;
     color: #fef1e7;
+}
+
+#bottoneHome2:hover {
+    background-color: #6996b3;
 }

@@ -13,7 +13,7 @@ class Home extends Component {
                     Presso il multisala SDV Cinema- Bicocca, si possono vedere i maggiori film del momento.
                     SDV Cinema- Centrale invece può vantare una ricercata selezione di film d'essai.
                 </p>
-                <h2 className="titoliCentrati acca2">VISITA LE NOSTRE SALE</h2>
+                <h2 className="acca2 acca2-home">VISITA LE NOSTRE SALE</h2>
                 <div className="row text-center">
                     <div className="col-md-1"></div>
                     <div className="col-md-4">

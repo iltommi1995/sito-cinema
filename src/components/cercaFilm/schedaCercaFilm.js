@@ -1,19 +1,15 @@
 import React from "react";
-import {Col, Row} from "reactstrap";
 import ModalExample from "../schedaFilm/schedaFilm";
 
 
 function SchedaCercaFilm(props) {
     return(
-        <div key={props.film.id} className="prova-nuovo">
-            <Row >
-                <Col className="col-xs-3">
+        <div key={props.film.id} className="prova-nuovo row">
 
+                <div className="col-xl-3 ">
                     <img src={props.film.img} alt="immagine" className="imgCercaFilm"/>
-
-                </Col>
-                <Col className="col-xs-3">
-                    <div id="testoCercaFilm">
+                </div>
+                <div className="col-xl-3 ">
                         <h3>{props.film.titolo}</h3>
                         <br/>
                         <p><b>Regia:</b> {props.film.regista}</p>
@@ -30,9 +26,7 @@ function SchedaCercaFilm(props) {
                                       sinossi={props.film.sinossi}
                                       immagine={props.film.img}
                         />
-                    </div>
-                </Col>
-            </Row>
+                </div>
         </div>
     )
 }
