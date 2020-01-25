@@ -1,13 +1,18 @@
-import React from "react";
-import {Col, Row} from "reactstrap";
+/**
+ * Author   :
+ * Update   :
+ * Date     :
+ */
+import React        from "react";
+import {Col, Row}   from "reactstrap";
 import ModalExample from "../schedaFilm/schedaFilm";
-
+///
 function SchedaOrariFilm (props) {
     return(
         <container>
             <Row className="scheda-film">
                 <Col xs="3">
-                    <img src={props.film.img} alt="immagine" className="img-scheda-film" responsive/>
+                    <img src={props.film.img} alt="immagine" className="img-scheda-film" fluid />
                 </Col>
                 <Col xs="3" className="colonna-dati-film">
                     <h3>{props.film.titolo}</h3>

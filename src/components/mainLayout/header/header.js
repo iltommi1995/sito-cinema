@@ -44,7 +44,7 @@ class Header extends Component {
 
                 {this.state.isLoggedIn ?
                     <div>
-                        <DropdownMenu right id="dropdownLogin">
+                        <DropdownMenu right id="dropdownLogin" className="navbar-red">
 
                             Sei Loggato.
                             <div className="dropdown-divider" style={{"backgroundColor": "yellow"}}></div>
@@ -53,7 +53,7 @@ class Header extends Component {
                     </div>
                     :
                     <div>
-                        <DropdownMenu right>
+                        <DropdownMenu right className="navbar-red">
 
                             Nome utente: <input type="text"></input>
                             Password: <input type="text"></input>

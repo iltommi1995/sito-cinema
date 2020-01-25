@@ -1,4 +1,8 @@
-
+/**
+ * Author   :
+ * Update   :
+ * Date     :
+ */
 import React from "react";
 import {Link} from "react-router-dom";
 //
@@ -30,7 +34,7 @@ const NavLogin = (props) => {
                 "color": "#fef1e7"
             }}>
                 <div className="container">
-                    <NavbarBrand><Link to="/"><img src="/img/logo.png" style={{"width":"120px"}}/></Link></NavbarBrand>
+                    <NavbarBrand ><Link to="/"><img src="/img/logo.png" style={{"width":"120px"}}/></Link></NavbarBrand>
                     <NavbarToggler onClick={toggle} />
                     <Collapse isOpen={isOpen} navbar>
                         <Nav className="mr-auto" navbar>

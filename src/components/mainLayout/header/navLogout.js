@@ -1,8 +1,7 @@
 
 import React from "react";
 import {Link} from "react-router-dom";
-
-
+//
 import {
     Collapse,
     Navbar,
@@ -17,7 +16,7 @@ import {
     DropdownItem,
     NavbarText
 } from 'reactstrap';
-
+///
 const NavLogout = (props) => {
     const [isOpen, setIsOpen] = React.useState(false);
 
@@ -57,7 +56,7 @@ const NavLogout = (props) => {
                         </NavItem>
 
                     </Nav>
-                    <Nav >
+                    <Nav className="navbar-red">
                         {props.login.button}
                     </Nav>
                 </Collapse>
