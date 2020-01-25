@@ -35,24 +35,23 @@ const NavLogin = (props) => {
                     <Collapse isOpen={isOpen} navbar>
                         <Nav className="mr-auto" navbar>
                             <UncontrolledDropdown nav inNavbar>
-                                <DropdownToggle nav caret>
+                                <DropdownToggle nav caret id="dropdownToggle-navLogout">
                                     Scegli cinema
                                 </DropdownToggle>
-                                <DropdownMenu right>
-                                    <DropdownItem>
-                                        <Link to="/orariFilmBicocca">Milano Bicocca</Link>
+                                <DropdownMenu right id="dropdownMenu">
+                                    <DropdownItem id="dropdownItem">
+                                        <Link to="/orariFilmBicocca" className="linkNav">Milano Bicocca</Link>
                                     </DropdownItem>
-                                    <DropdownItem>
-                                        <Link to="/orariFilmCentrale">Milano Centrale</Link>
-                                    </DropdownItem>
-                                    <DropdownItem divider />
-                                    <DropdownItem>
-                                        Reset
+                                    <DropdownItem id="dropdownItem2">
+                                        <Link to="/orariFilmCentrale" className="linkNav">Milano Centrale</Link>
                                     </DropdownItem>
                                 </DropdownMenu>
                             </UncontrolledDropdown>
                             <NavItem>
                                 <NavLink><Link to="/cercaFilm" className="linkNav">Cerca film</Link></NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink ><Link to="/blog"  className="linkNav">Blog</Link></NavLink>
                             </NavItem>
                             <NavItem>
                                 <NavLink><Link to="/areaPersonale" className="linkNav">Area Personale</Link></NavLink>

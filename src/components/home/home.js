@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import "../../css/components/home/home.css";
-import {Button} from "reactstrap"
+import {Button} from "reactstrap";
+import {Link} from "react-router-dom";
 
 class Home extends Component {
     render() {
@@ -25,7 +26,7 @@ class Home extends Component {
                             voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                             cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                         </p>
-                        <Button>VAI ALLA PROGRAMMAZIONE</Button>
+                        <Link to="/orariFilmBicocca"><Button id="bottoneHome2">VAI ALLA PROGRAMMAZIONE</Button></Link>
                     </div>
                     <div className="col-md-2"></div>
                     <div className="col-md-4">
@@ -38,7 +39,7 @@ class Home extends Component {
                             voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                             cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                         </p>
-                        <Button>VAI ALLA PROGRAMMAZIONE</Button>
+                        <Link to="/orariFilmCentrale" ><Button id="bottoneHome2">VAI ALLA PROGRAMMAZIONE</Button></Link>
                     </div>
                     <div className="col-md-1"></div>
                 </div>
