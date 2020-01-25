@@ -1,9 +1,13 @@
-import React from "react";
-import {Col, Row} from "reactstrap";
+/**
+ * Author   :
+ * Update   :
+ * Date     :
+ */
+import React        from "react";
+import {Col, Row}   from "reactstrap";
 import ModalExample from "../schedaFilm/schedaFilm";
 import "../../css/components/orariFilm/schedaOrariFilm.css";
-
-
+///
 function schedaGiorni (data, day) {
     return(
         <div className="row">
@@ -20,7 +24,7 @@ function schedaGiorni (data, day) {
 
     )
 }
-
+///
 function SchedaOrariFilmV2 (data) {
     return(
         <container>

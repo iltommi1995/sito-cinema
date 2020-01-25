@@ -1,16 +1,17 @@
-
+/**
+ * Author   :
+ * Update   :
+ * Date     :
+ */
 import React from 'react';
 import "./css/general.css";
-
-import Header from "./components/mainLayout/header/header"
-import Footer from "./components/mainLayout/footer/footer";
+///
+import Header       from "./components/mainLayout/header/header"
+import Footer       from "./components/mainLayout/footer/footer";
 import MainTemplate from "./components/mainLayout/mainTemplate/mainTemplate";
-import Orologio from "./components/orologio/orologio";
-import Timer from "./components/timer/timer";
-
-
-
-
+import Orologio     from "./components/orologio/orologio";
+import Timer        from "./components/timer/timer";
+//
 function App() {
   return (
       <div>
@@ -30,5 +31,6 @@ function App() {
       </div>
   );
 }
-
+//
 export default App;
+//

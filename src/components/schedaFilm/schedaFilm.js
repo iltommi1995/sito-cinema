@@ -1,9 +1,12 @@
-
+/**
+ * Author   :
+ * Update   :
+ * Date     :
+ */
 import React, { useState } from 'react';
 import {Button, Modal, ModalHeader, ModalBody, ModalFooter, Col} from 'reactstrap';
 import "../../css/components/schedaFilm/schedaFilm.css";
-
-
+///
 const ModalExample = (props) => {
     const {
         buttonLabel,
