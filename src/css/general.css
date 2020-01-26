@@ -55,6 +55,13 @@ p {
 
 .orologio {
     position: fixed;
-    top: 100px;
+    top: 30px;
     right: 50px;
+    z-index: 300;
+}
+
+@media only screen and (max-width: 768px) {
+    .orologio {
+        display: none;
+    }
 }

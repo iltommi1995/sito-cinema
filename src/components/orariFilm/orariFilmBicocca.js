@@ -4,14 +4,14 @@ import FilmData from '../../data/filmBicocca';
 import "../../css/components/schedaFilm/schedaFilm.css";
 
 
-import SchedaOrariFilmV2 from "./schedaOrariFilmV2";
+import SchedaOrariFilmV2 from "./schedaOrariFilm";
 
 
 class OrariFilmBicocca extends Component {
     render() {
         return(
             <div>
-                <h1 className="acca1">Cinema Milano Bicocca </h1>
+                <h1>Cinema Milano Bicocca </h1>
 
                 {FilmData.map(filmDetail =><SchedaOrariFilmV2 film={filmDetail} />)}
             </div>

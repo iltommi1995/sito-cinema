@@ -10,17 +10,17 @@
     width: 125px;
 }
 
-.linkNav{
+.link-nav{
     color: #fef1e7;
     text-decoration: none;
 }
 
-.linkNav:hover {
+.link-nav:hover {
     color: #6996b3;
     text-decoration: none;
 }
 
-#dropdownMenu, .dropdown-menu .dropdown-menu-right  {
+#dropdown-menu, .dropdown-menu .dropdown-menu-right  {
     background-color: #983232;
 }
 .navbar-red{
@@ -29,21 +29,19 @@
     color: #fff;
 }
 
-#dropdownToggle-navLogout {
+#dropdown-toggle-nav-logout {
     color: #fef1e7;
 }
 
-#dropdownToggle-navLogout:hover {
+#dropdown-toggle-nav-logout:hover {
     color: #6996b3;
 }
 
-#dropdownItem:hover {
+.dropdown-item:hover {
     background-color: #983232;
 }
 
-#dropdownItem2:hover {
-    background-color: #983232;
-}
+
 
 /* PARTE DEL LOGIN */
 

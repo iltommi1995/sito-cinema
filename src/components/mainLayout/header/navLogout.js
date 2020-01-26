@@ -31,24 +31,24 @@ const NavLogout = (props) => {
                     <Collapse isOpen={isOpen} navbar>
                         <Nav className="mr-auto" navbar>
                             <UncontrolledDropdown nav inNavbar>
-                                <DropdownToggle nav caret  id="dropdownToggle-navLogout">
+                                <DropdownToggle nav caret  id="dropdown-toggle-nav-logout">
                                     Scegli cinema
                                 </DropdownToggle>
-                                <DropdownMenu right id="dropdownMenu">
-                                    <DropdownItem id="dropdownItem">
-                                        <RRNavLink to="/orariFilmBicocca" className="linkNav">Milano Bicocca</RRNavLink>
+                                <DropdownMenu right id="dropdown-menu">
+                                    <DropdownItem className="dropdown-item">
+                                        <RRNavLink to="/orariFilmBicocca" className="link-nav">Milano Bicocca</RRNavLink>
                                     </DropdownItem>
-                                    <DropdownItem id="dropdownItem2">
-                                        <RRNavLink to="/orariFilmCentrale" className="linkNav">Milano Centrale</RRNavLink>
+                                    <DropdownItem className="dropdown-item">
+                                        <RRNavLink to="/orariFilmCentrale" className="link-nav">Milano Centrale</RRNavLink>
                                     </DropdownItem>
 
                                 </DropdownMenu>
                             </UncontrolledDropdown>
                             <NavItem>
-                                <NavLink ><RRNavLink to="/cercaFilm" className="linkNav">Cerca film</RRNavLink></NavLink>
+                                <NavLink ><RRNavLink to="/cercaFilm" className="link-nav">Cerca film</RRNavLink></NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink ><RRNavLink to="/blog"  className="linkNav">Blog</RRNavLink></NavLink>
+                                <NavLink ><RRNavLink to="/blog"  className="link-nav">Blog</RRNavLink></NavLink>
                             </NavItem>
                             {props.login.button}
                         </Nav>
