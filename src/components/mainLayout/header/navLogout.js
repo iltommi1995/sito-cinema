@@ -1,6 +1,8 @@
 
 import React from "react";
-import {Link} from "react-router-dom";
+import {Link,
+    NavLink as RRNavLink
+} from "react-router-dom";
 import {
     Collapse,
     Navbar,
@@ -38,19 +40,19 @@ const NavLogout = (props) => {
                             </DropdownToggle>
                             <DropdownMenu right id="dropdownMenu">
                                 <DropdownItem id="dropdownItem">
-                                    <Link to="/orariFilmBicocca" className="linkNav">Milano Bicocca</Link>
+                                    <RRNavLink to="/orariFilmBicocca" className="linkNav">Milano Bicocca</RRNavLink>
                                 </DropdownItem>
                                 <DropdownItem id="dropdownItem2">
-                                    <Link to="/orariFilmCentrale" className="linkNav">Milano Centrale</Link>
+                                    <RRNavLink to="/orariFilmCentrale" className="linkNav">Milano Centrale</RRNavLink>
                                 </DropdownItem>
 
                             </DropdownMenu>
                         </UncontrolledDropdown>
                         <NavItem>
-                            <NavLink ><Link to="/cercaFilm"  className="linkNav">Cerca film</Link></NavLink>
+                            <NavLink ><RRNavLink to="/cercaFilm" className="linkNav">Cerca film</RRNavLink></NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink ><Link to="/blog"  className="linkNav">Blog</Link></NavLink>
+                            <NavLink ><RRNavLink to="/blog"  className="linkNav">Blog</RRNavLink></NavLink>
                         </NavItem>
                         {props.login.button}
                     </Nav>
