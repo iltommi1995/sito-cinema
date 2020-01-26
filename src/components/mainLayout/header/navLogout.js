@@ -54,9 +54,6 @@ const NavLogout = (props) => {
                         <NavItem>
                             <NavLink ><Link to="/blog"  className="linkNav">Blog</Link></NavLink>
                         </NavItem>
-
-                    </Nav>
-                    <Nav className="navbar-red">
                         {props.login.button}
                     </Nav>
                 </Collapse>
