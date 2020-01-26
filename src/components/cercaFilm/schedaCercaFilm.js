@@ -4,10 +4,10 @@ import ModalExample from "../schedaFilm/schedaFilm";
 
 function SchedaCercaFilm(props) {
     return(
-        <div key={props.film.id} className="prova-nuovo col-lg-6 col-md-12">
+        <div key={props.film.id} className="div-cerca-film col-lg-6 col-md-12">
             <div className="row">
                 <div className="col-lg-6 col-md-6 col-sm-12">
-                    <img src={props.film.img} alt="immagine" className="imgCercaFilm"/>
+                    <img src={props.film.img} alt="immagine" className="img-cerca-film"/>
                 </div>
                 <div className="col-lg-6 col-md-6 col-sm-12">
                         <h3>{props.film.titolo}</h3>
@@ -16,7 +16,7 @@ function SchedaCercaFilm(props) {
                         <p><b>Genere:</b> {props.film.genere}</p>
                         <p><b>Durata:</b> {props.film.durata}</p>
                         <p><b>Cast:</b> {props.film.cast}</p>
-                        <ModalExample className="bottoneScheda"
+                        <ModalExample className="btn-sdv"
                                       buttonLabel="Scheda del Film"
                                       nomeFilm={props.film.titolo}
                                       regista={props.film.regista}

@@ -26,13 +26,9 @@ const NavLogin = (props) => {
 
     return (
         <div >
-            <Navbar className="navbar fixed-top" light expand="md" style={{
-                "zIndex":"200",
-                "background-color": "#983232",
-                "color": "#fef1e7"
-            }}>
+            <Navbar className="navbar fixed-top nav-sdv" light expand="md">
                 <div className="container">
-                    <NavbarBrand ><Link to="/"><img src="/img/logo.png" style={{"width":"120px"}}/></Link></NavbarBrand>
+                    <NavbarBrand ><Link to="/"><img src="/img/logo.png" className="nav-logo"/></Link></NavbarBrand>
                     <NavbarToggler onClick={toggle} />
                     <Collapse isOpen={isOpen} navbar>
                         <Nav className="mr-auto" navbar>

@@ -27,7 +27,7 @@ const ModalExample = (props) => {
     const externalCloseBtn = <button className="close" style={{ position: 'absolute', top: '15px', right: '15px' }} onClick={toggle}>&times;</button>;
     return (
         <div>
-            <Button id="bottoneApriSchedaFilm" onClick={toggle}>{buttonLabel}</Button>
+            <Button className="btn-sdv" onClick={toggle}>{buttonLabel}</Button>
             <Modal isOpen={modal} toggle={toggle} className={className} external={externalCloseBtn} id="bellazio">
                 <ModalHeader className="headerModal" style={{"borderBottomColor":"#983232"}}>
                     <h2 className="acca2 titoloFilmSchedaFilm">{nomeFilm}</h2>
