@@ -13,12 +13,12 @@ class App extends Component {
         return (
             <div>
                 <Header/>
-                <div className="mainBody">
+                <div className="main-body">
                     <div className="container">
                         <MainTemplate/>
                     </div>
                 </div>
-                <div style={{"position": "fixed", "top": "100px", "right": "50px"}}>
+                <div className="orologio">
                     <Orologio/>
                 </div>
                 <Footer/>

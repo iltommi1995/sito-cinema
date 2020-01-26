@@ -31,7 +31,7 @@ class CercaFilm extends Component {
         const {parolaRicerca, titoloFilm} = this.state;
         return (
             <div>
-                <h1 className="acca1">Film in programmazione degli SDV Cinemas</h1>
+                <h1>Film in programmazione degli SDV Cinemas</h1>
                 <form>
                     <div className="row">
                         <div className="col-lg-4 col-md-5 col-sm-6 col-7">

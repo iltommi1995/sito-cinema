@@ -1,4 +1,14 @@
-/* PARTE DEL MENU */
+/* NAVLOGIN E NAVLOGOUT */
+
+.nav-sdv {
+    z-index: 200;
+    background-color: #983232;
+    color: #fef1e7;
+}
+
+.nav-logo {
+    width: 125px;
+}
 
 .linkNav{
     color: #fef1e7;
@@ -34,12 +44,6 @@
 #dropdownItem2:hover {
     background-color: #983232;
 }
-
-
-/*.navbar-collapse.show{
-    height: 100vh;
-} */
-
 
 /* PARTE DEL LOGIN */
 

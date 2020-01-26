@@ -4,11 +4,13 @@ import "../../css/components/blog/blog.css";
 
 function ArticoloBlog (props) {
     return(
-        <div className="col-sm-6 articolo-blog">
-            <img src={props.articoli.img} style={{"width":"60%"}}></img>
-            <h2 className="acca2">{props.articoli.titolo}</h2>
+        <div className="col-md-6 col-sm-12 articolo-blog">
+            <img src={props.articoli.img} className="img-articolo-blog"></img>
+            <h2>{props.articoli.titolo}</h2>
             <p>{props.articoli.anteprima}</p>
-            <Link to={"/articoli/" + props.articoli.id}><button className="btn" id="bottoneArticoloBlog">Leggi di più</button></Link>
+            <Link to={"/articoli/" + props.articoli.id}>
+                <button className="btn btn-sdv">Leggi di più</button>
+            </Link>
         </div>
     )
 }

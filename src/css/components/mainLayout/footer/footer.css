@@ -1,38 +1,41 @@
+/* FOOTER */
 
-
-#scrittaFooter {
-    font-size: 60pt;
-    text-align: center;
+.footer-bg {
+    background-color: #983232;
+    color: #fef1e7;
 }
 
+hr {
+    background-color: #fef1e7;
+}
 
-.linkFooter{
+.link-footer{
     color: #fef1e7;
     text-decoration: none;
 }
 
-.linkFooter:hover {
+.link-footer:hover {
     color: #6996b3;
     text-decoration: none;
 }
 
-.socialIconOn {
+.social-icon-on {
     width: 30px;
     margin-top:15px;
 }
 
-.socialIconOff {
+.social-icon-off {
     width: 30px;
     margin-top:15px;
 }
 
-.socialIconOff, .linkSocial:hover .socialIconOn{
+.social-icon-off, .link-social:hover .social-icon-on{
     display:none;
 }
-.socialIconOn, .linkSocial:hover .socialIconOff{
+.social-icon-on, .link-social:hover .social-icon-off{
     display: block;
 }
 
-.linkSocial {
+.link-social {
     width:30px;
 }
