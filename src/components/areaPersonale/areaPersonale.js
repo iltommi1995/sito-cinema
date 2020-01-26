@@ -14,13 +14,12 @@ class AreaPersonale extends Component {
                 return (
                     <div>
                         <div className="row">
-                            <div className="col-md-2">
+                            <div className="col-xl-2 col-lg-1">
                             </div>
-                            <div className="col-md-4">
-
+                            <div className="col-xl-4 col-lg-5 col-md-6">
                                 <img src={UtenteDetail.img} className="img-area-personale"></img>
                             </div>
-                            <div className="col-md 4">
+                            <div className="col-xl-5 col-lg-5 col-md-6 dati-utente">
                                 <h2 className="acca2">Bentornato {UtenteDetail.nome}</h2>
                                 <br/>
                                 <p><b>Hai accumulato {UtenteDetail.punti} punti.</b></p>
@@ -32,7 +31,7 @@ class AreaPersonale extends Component {
                                     {UtenteDetail.punti >= 30 && (<li>{UtenteDetail.premi.num3}</li>)}
                                 </ul>
                             </div>
-                            <div className="col-md-2">
+                            <div className="col-xl-1 col-lg-1">
                             </div>
                         </div>
 
