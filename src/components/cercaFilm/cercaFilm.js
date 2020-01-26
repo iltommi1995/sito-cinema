@@ -39,10 +39,11 @@ class CercaFilm extends Component {
                            placeholder="Titolo film">
                     </input>
                 </form>
-
-                {titoloFilm.filter(searchingFor(parolaRicerca)).map(filmDetail =>
-                        <SchedaCercaFilm film={filmDetail}/>
-                    )}
+                <div className="row">
+                        {titoloFilm.filter(searchingFor(parolaRicerca)).map(filmDetail =>
+                                <SchedaCercaFilm film={filmDetail}/>
+                            )}
+                </div>
 
             </div>
         )

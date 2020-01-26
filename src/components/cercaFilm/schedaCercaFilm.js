@@ -4,12 +4,12 @@ import ModalExample from "../schedaFilm/schedaFilm";
 
 function SchedaCercaFilm(props) {
     return(
-        <div key={props.film.id} className="prova-nuovo row">
-
-                <div className="col-xl-3 ">
+        <div key={props.film.id} className="prova-nuovo col-lg-6 col-md-12">
+            <div className="row">
+                <div className="col-lg-6 col-md-6 col-sm-12">
                     <img src={props.film.img} alt="immagine" className="imgCercaFilm"/>
                 </div>
-                <div className="col-xl-3 ">
+                <div className="col-lg-6 col-md-6 col-sm-12">
                         <h3>{props.film.titolo}</h3>
                         <br/>
                         <p><b>Regia:</b> {props.film.regista}</p>
@@ -27,6 +27,7 @@ function SchedaCercaFilm(props) {
                                       immagine={props.film.img}
                         />
                 </div>
+            </div>
         </div>
     )
 }
