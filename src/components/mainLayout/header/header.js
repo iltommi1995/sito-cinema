@@ -1,15 +1,9 @@
-/**
- * Author   :
- * Update   :
- * Date     :
- */
 import {DropdownItem, DropdownMenu, DropdownToggle, Nav, UncontrolledDropdown} from "reactstrap";
 import React, {Component} from "react";
 import "../../../css/components/mainLayout/header/header.css";
-///
 import NavLogout    from "./navLogout";
 import NavLogin     from "./navLogin";
-///
+
 class Header extends Component {
     constructor () {
         super()
@@ -31,7 +25,7 @@ class Header extends Component {
 
         let testoBottone = this.state.isLoggedIn ? "LOG OUT" : "LOG IN"
         let bottone = <div>
-            <UncontrolledDropdown nav inNavbar>
+            <UncontrolledDropdown nav inNavbar >
                 {this.state.isLoggedIn ?
                     <DropdownToggle nav caret>
                         Nome Utente
@@ -44,21 +38,26 @@ class Header extends Component {
 
                 {this.state.isLoggedIn ?
                     <div>
-                        <DropdownMenu right id="dropdownLogin" className="navbar-red">
+                        <DropdownMenu  id="dropdownLogin" className="navbar-red ">
 
                             Sei Loggato.
-                            <div className="dropdown-divider" style={{"backgroundColor": "yellow"}}></div>
+                            <div className="dropdown-divider"></div>
                             <button value="login" onClick={this.handleClick}>{testoBottone}</button>
                         </DropdownMenu>
                     </div>
                     :
                     <div>
-                        <DropdownMenu right className="navbar-red">
-
-                            Nome utente: <input type="text"></input>
-                            Password: <input type="text"></input>
+                        <DropdownMenu className="navbar-red">
+                            <ul className="ul-login">
+                                <li>Nome utente: <br /> <input type="text"></input> </li>
+                                <li>Password: <br /> <input type="text"></input></li>
+                            </ul>
                             <DropdownItem divider />
-                            <button value="login" onClick={this.handleClick} id="bottone-login">{testoBottone}</button>
+                            <ul className="ul-login">
+                                <li>
+                                    <button value="login" onClick={this.handleClick} id="bottone-login">{testoBottone}</button>
+                                </li>
+                            </ul>
                         </DropdownMenu>
                     </div>
 
@@ -66,6 +65,8 @@ class Header extends Component {
 
             </UncontrolledDropdown>
         </div>;
+
+
         return(
             <div>
                 {this.state.isLoggedIn ? <NavLogin login={{button:bottone}}/> : <NavLogout login={{button:bottone}}/>}

@@ -33,11 +33,17 @@ class CercaFilm extends Component {
             <div>
                 <h1 className="acca1">Film in programmazione degli SDV Cinemas</h1>
                 <form>
-                    <input type="text"
-                           onChange={this.cercaTitoli}
-                           value={parolaRicerca}
-                           placeholder="Titolo film">
-                    </input>
+                    <div className="row">
+                        <div className="col-lg-4 col-md-5 col-sm-6 col-7">
+                            <input type="text"
+                                   onChange={this.cercaTitoli}
+                                   value={parolaRicerca}
+                                   placeholder="Titolo film"
+                                   className="form-control"
+                            >
+                            </input>
+                        </div>
+                    </div>
                 </form>
                 <div className="row">
                         {titoloFilm.filter(searchingFor(parolaRicerca)).map(filmDetail =>
