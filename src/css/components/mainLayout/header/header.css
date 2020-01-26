@@ -36,6 +36,11 @@
 }
 
 
+.navbar-collapse.show{
+    height: 100vh;
+}
+
+
 /* PARTE DEL LOGIN */
 
 #dropdownLogin {
