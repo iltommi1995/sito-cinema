@@ -60,9 +60,6 @@ const NavLogin = (props) => {
                             <NavItem>
                                 <NavLink><Link to="/areaPersonale" className="linkNav">Area Personale</Link></NavLink>
                             </NavItem>
-
-                        </Nav>
-                        <Nav >
                             {props.login.button}
                         </Nav>
                     </Collapse>
