@@ -1,29 +1,14 @@
-.titoloFilmSchedaFilm {
+/* SCHEDA FILM */
+
+.titolo-film-scheda-film {
     margin-top: 10px;
 }
 
-.imgSchedaFilm {
+.img-scheda-film {
     width: 150px;
     float: left;
 }
 
-#bottoneSchedaFilm {
-    background-color: #983232;
-    color: #fef1e7;
-}
-
-#bottoneSchedaFilm:hover {
-    background-color: #6996b3;
-}
-
-.headerModal {
-    background-color: #fef1e7;
-}
-
-.bodyModal {
-    background-color: #fef1e7;
-}
-
-.footerModal {
+.bg-modal {
     background-color: #fef1e7;
 }

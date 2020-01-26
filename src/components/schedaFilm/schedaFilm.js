@@ -1,12 +1,7 @@
-/**
- * Author   :
- * Update   :
- * Date     :
- */
 import React, { useState } from 'react';
 import {Button, Modal, ModalHeader, ModalBody, ModalFooter, Col} from 'reactstrap';
 import "../../css/components/schedaFilm/schedaFilm.css";
-///
+
 const ModalExample = (props) => {
     const {
         buttonLabel,
@@ -24,18 +19,18 @@ const ModalExample = (props) => {
 
     const toggle = () => setModal(!modal);
 
-    const externalCloseBtn = <button className="close" style={{ position: 'absolute', top: '15px', right: '15px' }} onClick={toggle}>&times;</button>;
+    const externalCloseBtn = <button className="close btn-sdv" style={{ position: 'absolute', top: '15px', right: '15px' }} onClick={toggle}>&times;</button>;
     return (
         <div>
             <Button className="btn-sdv" onClick={toggle}>{buttonLabel}</Button>
-            <Modal isOpen={modal} toggle={toggle} className={className} external={externalCloseBtn} id="bellazio">
-                <ModalHeader className="headerModal" style={{"borderBottomColor":"#983232"}}>
-                    <h2 className="acca2 titoloFilmSchedaFilm">{nomeFilm}</h2>
+            <Modal isOpen={modal} toggle={toggle} className={className} external={externalCloseBtn}>
+                <ModalHeader className="bg-modal" style={{"borderBottomColor":"#983232"}}>
+                    <h2 className="titolo-film-scheda-film">{nomeFilm}</h2>
                 </ModalHeader>
-                <ModalBody className="bodyModal">
+                <ModalBody className="bg-modal">
                     <div style={{height: '250px'}}>
-                        <img src={immagine} alt="immagine locandina" className="imgSchedaFilm"></img>
-                        <div style={{float: 'right', width: '300px'}}>
+                        <img src={immagine} alt="immagine locandina" className="img-scheda-film"></img>
+                        <div style={{float: 'right', width: '250px'}}>
                             <br/>
                             <p><b>Regia:</b> {regista}</p>
                             <p><b>Genere:</b> {genere}</p>
@@ -44,10 +39,11 @@ const ModalExample = (props) => {
                         </div>
                     </div>
                     <br/>
+                    <br/>
                     <p>{sinossi}</p>
                 </ModalBody>
-                <ModalFooter className="footerModal" style={{"borderTopColor":"#983232"}}>
-                    <Button id="bottoneSchedaFilm" onClick={toggle}>Chiudi</Button>
+                <ModalFooter className="bg-modal" style={{"borderTopColor":"#983232"}}>
+                    <Button className="btn-sdv" onClick={toggle}>Chiudi</Button>
                 </ModalFooter>
             </Modal>
         </div>
