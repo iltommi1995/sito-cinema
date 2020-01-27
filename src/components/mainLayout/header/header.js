@@ -1,4 +1,4 @@
-import {DropdownItem, DropdownMenu, DropdownToggle, Nav, UncontrolledDropdown} from "reactstrap";
+import {DropdownItem, DropdownMenu, DropdownToggle, UncontrolledDropdown, Button} from "reactstrap";
 import React, {Component} from "react";
 import "../../../css/components/mainLayout/header/header.css";
 import NavLogout    from "./navLogout";
@@ -31,7 +31,7 @@ class Header extends Component {
                         Nome Utente
                     </DropdownToggle>
                     :
-                    <DropdownToggle nav caret>
+                    <DropdownToggle nav caret className="link-nav">
                         LOGIN
                     </DropdownToggle>
                 }
@@ -42,7 +42,7 @@ class Header extends Component {
 
                             Sei Loggato.
                             <div className="dropdown-divider"></div>
-                            <button value="login" onClick={this.handleClick}>{testoBottone}</button>
+                            <button value="login" onClick={this.handleClick} className="btn btn-login">{testoBottone}</button>
                         </DropdownMenu>
                     </div>
                     :
@@ -55,7 +55,7 @@ class Header extends Component {
                             <DropdownItem divider />
                             <ul className="ul-login">
                                 <li>
-                                    <button value="login" onClick={this.handleClick} id="bottone-login">{testoBottone}</button>
+                                    <button value="login" onClick={this.handleClick} className="btn btn-login">{testoBottone}</button>
                                 </li>
                             </ul>
                         </DropdownMenu>
