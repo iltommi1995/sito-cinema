@@ -5,6 +5,7 @@ import "../../css/components/schedaFilm/schedaFilm.css";
 
 
 import SchedaOrariFilmV2 from "./schedaOrariFilm";
+import FilmUscita from "../countdown/filmUscita";
 
 
 class OrariFilmBicocca extends Component {
@@ -14,7 +15,10 @@ class OrariFilmBicocca extends Component {
                 <h1>Cinema Milano Bicocca </h1>
 
                 {FilmData.map(filmDetail =><SchedaOrariFilmV2 film={filmDetail} />)}
+
+                <FilmUscita />
             </div>
+
         )
     }
 }

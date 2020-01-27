@@ -43,6 +43,7 @@
 
 
 
+
 /* PARTE DEL LOGIN */
 
 #dropdownLogin {
@@ -52,4 +53,9 @@
 .ul-login {
     list-style: none;
     padding-left: 0px;
+}
+
+.btn-login {
+    background-color: #fef1e7;
+    color: black;
 }

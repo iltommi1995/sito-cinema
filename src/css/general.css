@@ -73,6 +73,10 @@ p {
     z-index: 300;
 }
 
+.orologio-h2 {
+    color: #fef1e7;
+}
+
 @media only screen and (max-width: 768px) {
     .orologio {
         display: none;
