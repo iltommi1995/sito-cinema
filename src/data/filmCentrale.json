@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "img": "/img/theIrishman.jpg",
+    "img": "/img/the_irishman.jpg",
     "titolo": "The Irishman",
     "regista": "Martin Scorsese",
     "genere": "Drammatico, Gangster",
@@ -38,7 +38,7 @@
   },
   {
     "id": 2,
-    "img": "/img/lUfficialeELaSpia.jpg",
+    "img": "/img/l_ufficiale_e_la_spia.jpg",
     "titolo": "L'ufficiale e la spia",
     "regista": "Roman Polański",
     "genere": "Storico, drammatico",
@@ -81,7 +81,7 @@
 
   {
     "id": 3,
-    "img": "/img/cEraUnaVolta.jpg",
+    "img": "/img/c_era_una_volta_a_hollywood.jpg",
     "titolo": "C'era una volta a... Hollywood",
     "regista": "Quentin Tarantino",
     "genere": "Commedia, thriller",
