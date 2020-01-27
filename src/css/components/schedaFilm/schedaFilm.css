@@ -4,6 +4,15 @@
     margin-top: 10px;
 }
 
+.div-img-dati-modal {
+    height:300px;
+}
+
+.testo-modal {
+    float: right;
+    width: 250px;
+}
+
 .img-scheda-film {
     width: 150px;
     float: left;
@@ -19,6 +28,14 @@
 
 @media only screen and (max-width: 520px) {
     .testo-modal {
+        float:none;
+    }
+
+    .div-img-dati-modal {
+        height: auto!important;
+    }
+
+    .img-scheda-film {
         float:none;
     }
 }
