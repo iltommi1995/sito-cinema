@@ -1,5 +1,6 @@
 import React from "react";
 import {Link} from "react-router-dom";
+import {Button} from "reactstrap";
 import "../../css/components/blog/blog.css";
 
 function ArticoloBlog (props) {
@@ -9,7 +10,7 @@ function ArticoloBlog (props) {
             <h2>{props.articoli.titolo}</h2>
             <p>{props.articoli.anteprima}</p>
             <Link to={"/articoli/" + props.articoli.id}>
-                <button className="btn btn-sdv">Leggi di più</button>
+                <Button className="btn-sdv">Leggi di più</Button>
             </Link>
         </div>
     )
