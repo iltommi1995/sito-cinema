@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "img": "/img/ToloTolo.jpg",
+    "img": "/img/tolo_tolo.jpg",
     "titolo": "Tolo Tolo",
     "regista": "Checco Zalone",
     "genere": "Commedia",
@@ -43,7 +43,7 @@
   },
   {
     "id": 2,
-    "img": "/img/StarWars.jpg",
+    "img": "/img/star_wars.jpg",
     "titolo": "Star Wars- L'ascesa di Skywalker",
     "regista": "J.J. Abrams",
     "genere": "Fantascienza",

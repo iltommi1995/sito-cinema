@@ -6,6 +6,7 @@ import "../../css/components/schedaFilm/schedaFilm.css";
 
 import SchedaOrariFilm from "./schedaOrariFilm";
 import Countdown from "../countdown/countdown";
+import FilmUscita from "../countdown/filmUscita";
 
 
 class OrariFilmCentrale extends Component {
@@ -17,9 +18,8 @@ class OrariFilmCentrale extends Component {
                 {
                     FilmData.map(filmDetail =><SchedaOrariFilm film={filmDetail} />)}
 
-                <div>
-                    <Countdown />
-                </div>
+                 <FilmUscita />
+
             </div>
         )
     }
