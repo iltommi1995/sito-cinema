@@ -38,6 +38,13 @@ p {
     font-size: 1em;
 }
 
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 3em;
+    }
+}
+
+
 
 /* BOTTONE */
 
@@ -48,6 +55,12 @@ p {
 
 .btn-sdv:hover {
     background-color: #ba0606;
+    color: #fef1e7;
+}
+
+.btn-sdv:focus {
+    background-color: #983232;
+    color: #fef1e7;
 }
 
 

@@ -30,7 +30,7 @@ const ModalExample = (props) => {
                 <ModalBody className="bg-modal">
                     <div style={{height: '250px'}}>
                         <img src={immagine} alt="immagine locandina" className="img-scheda-film"></img>
-                        <div style={{float: 'right', width: '250px'}}>
+                        <div style={{float: 'right', width: '250px'}} className="testo-modal">
                             <br/>
                             <p><b>Regia:</b> {regista}</p>
                             <p><b>Genere:</b> {genere}</p>

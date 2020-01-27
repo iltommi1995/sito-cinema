@@ -13,3 +13,12 @@
     background-color: #fef1e7;
     color: black;
 }
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 520px) {
+    .testo-modal {
+        float:none;
+    }
+}
