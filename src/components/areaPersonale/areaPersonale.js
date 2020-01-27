@@ -3,21 +3,18 @@ import UtenteData from "../../data/utente";
 import "../../css/components/areaPersonale/areaPersonale.css"
 
 class AreaPersonale extends Component {
-
     render() {
         return(
         <div>
             <h1 className="acca1">Area personale</h1>
-
             {UtenteData.map(UtenteDetail => {
-
                 return (
                     <div>
                         <div className="row">
                             <div className="col-xl-2 col-lg-1">
                             </div>
                             <div className="col-xl-4 col-lg-5 col-md-6">
-                                <img src={UtenteDetail.img} className="img-area-personale"></img>
+                                <img src={UtenteDetail.img} className="img mario rossi"></img>
                             </div>
                             <div className="col-xl-5 col-lg-5 col-md-6 dati-utente">
                                 <h2 className="acca2">Bentornato {UtenteDetail.nome}</h2>
@@ -34,7 +31,6 @@ class AreaPersonale extends Component {
                             <div className="col-xl-1 col-lg-1">
                             </div>
                         </div>
-
                     </div>
                 )
             })}
@@ -42,7 +38,5 @@ class AreaPersonale extends Component {
         )
     }
 }
-
-
 
 export default AreaPersonale;

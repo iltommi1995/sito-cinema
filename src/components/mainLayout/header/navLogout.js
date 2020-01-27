@@ -1,4 +1,3 @@
-
 import React from "react";
 import {Link,
     NavLink as RRNavLink
@@ -52,7 +51,6 @@ const NavLogout = (props) => {
                             </NavItem>
                             {props.login.button}
                         </Nav>
-
                     </Collapse>
                 </div>
             </Navbar>

@@ -1,6 +1,7 @@
-import React        from "react";
-import ModalExample from "../schedaFilm/schedaFilm";
+import React from "react";
 import "../../css/components/orariFilm/schedaOrariFilm.css";
+
+import ModalExample from "../schedaFilm/schedaFilm";
 
 function schedaGiorni (data, day) {
     return(
@@ -15,18 +16,15 @@ function schedaGiorni (data, day) {
                 <p className="orario-film">{data.quarto}</p>
             </div>
         </div>
-
     )
 }
 
 function SchedaOrariFilm (data) {
     return(
             <div className="row scheda-film">
-
                 <div className="col-lg-3 col-md-4 col-sm-12">
                     <img src={data.film.img} alt="immagine" className="img-scheda-film" fluid />
                 </div>
-
                 <div className="col-lg-4 col-md-8 col-sm-12 dati-film">
                     <h2 className="titolo-orari-film">{data.film.titolo}</h2>
                         <p><b>Regia:</b> {data.film.regista}</p>

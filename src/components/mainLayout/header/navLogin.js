@@ -1,9 +1,7 @@
-
 import React from "react";
 import {Link,
     NavLink as RRNavLink
 } from "react-router-dom";
-//
 import {
     Collapse,
     Navbar,
@@ -16,9 +14,8 @@ import {
     DropdownToggle,
     DropdownMenu,
     DropdownItem,
-    NavbarText
 } from 'reactstrap';
-//
+
 const NavLogin = (props) => {
     const [isOpen, setIsOpen] = React.useState(false);
 

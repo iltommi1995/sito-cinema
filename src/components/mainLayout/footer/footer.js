@@ -1,7 +1,5 @@
 import React from "react";
-
 import {Link} from "react-router-dom";
-
 import "../../../css/components/mainLayout/footer/footer.css";
 
 function Footer() {
@@ -57,7 +55,6 @@ function Footer() {
                             </div>
                         </div>
                     </div>
-
                     <div className="col-12 text-center">
                         <hr></hr>
                         <h5>© SDVCinemas</h5>

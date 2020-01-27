@@ -1,13 +1,12 @@
 import React from "react";
 import ModalExample from "../schedaFilm/schedaFilm";
 
-
 function SchedaCercaFilm(props) {
     return(
         <div key={props.film.id} className="div-cerca-film col-lg-6 col-md-12">
             <div className="row">
                 <div className="col-lg-6 col-md-6 col-sm-12">
-                    <img src={props.film.img} alt="immagine" className="img-cerca-film"/>
+                    <img src={props.film.img} alt={"locandina " + props.film.titolo} className="img-cerca-film"/>
                 </div>
                 <div className="col-lg-6 col-md-6 col-sm-12">
                         <h3>{props.film.titolo}</h3>

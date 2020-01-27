@@ -1,6 +1,7 @@
-import {DropdownItem, DropdownMenu, DropdownToggle, UncontrolledDropdown, Button} from "reactstrap";
 import React, {Component} from "react";
+import {DropdownItem, DropdownMenu, DropdownToggle, UncontrolledDropdown, Button} from "reactstrap";
 import "../../../css/components/mainLayout/header/header.css";
+
 import NavLogout    from "./navLogout";
 import NavLogin     from "./navLogin";
 
@@ -22,20 +23,18 @@ class Header extends Component {
     }
 
     render () {
-
         let testoBottone = this.state.isLoggedIn ? "LOG OUT" : "LOG IN"
         let bottone = <div>
             <UncontrolledDropdown nav inNavbar >
                 {this.state.isLoggedIn ?
-                    <DropdownToggle nav caret>
+                    <DropdownToggle nav caret id="dropdown-toggle-login">
                         Nome Utente
                     </DropdownToggle>
                     :
-                    <DropdownToggle nav caret className="link-nav">
+                    <DropdownToggle nav caret id="dropdown-toggle-login">
                         LOGIN
                     </DropdownToggle>
                 }
-
                 {this.state.isLoggedIn ?
                     <div>
                         <DropdownMenu  id="dropdownLogin" className="navbar-red ">
@@ -60,12 +59,9 @@ class Header extends Component {
                             </ul>
                         </DropdownMenu>
                     </div>
-
                 }
-
             </UncontrolledDropdown>
         </div>;
-
 
         return(
             <div>
@@ -75,12 +71,11 @@ class Header extends Component {
                             "zIndex":"300",
                             "right":"500px"
                 }}>
-
                 </div>
             </div>
         )
     }
 }
-///
+
 export default Header;
-///
+

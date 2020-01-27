@@ -26,7 +26,7 @@ class Clock extends Component {
     render() {
         return (
             <div>
-                <h2 className="orologio-h2">It is {this.state.date.toLocaleTimeString()}.</h2>
+                <h3 className="orologio-h3">{this.state.date.toLocaleTimeString()}</h3>
             </div>
         );
     }
