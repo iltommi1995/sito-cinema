@@ -28,9 +28,9 @@ const ModalExample = (props) => {
                     <h2 className="titolo-film-scheda-film">{nomeFilm}</h2>
                 </ModalHeader>
                 <ModalBody className="bg-modal">
-                    <div style={{height: '250px'}}>
+                    <div className="div-img-dati-modal">
                         <img src={immagine} alt="immagine locandina" className="img-scheda-film"></img>
-                        <div style={{float: 'right', width: '250px'}} className="testo-modal">
+                        <div className="testo-modal">
                             <br/>
                             <p><b>Regia:</b> {regista}</p>
                             <p><b>Genere:</b> {genere}</p>
