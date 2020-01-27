@@ -1,8 +1,7 @@
 import React, {Component} from 'react'
-
 import FilmData from '../../data/tuttiFilm';
-
 import "../../css/components/cercaFilm/cercaFilm.css";
+
 import SchedaCercaFilm from "./schedaCercaFilm";
 
 
@@ -25,7 +24,6 @@ class CercaFilm extends Component {
     cercaTitoli(event){
         this.setState({parolaRicerca: event.target.value})
     }
-
 
     render() {
         const {parolaRicerca, titoloFilm} = this.state;
@@ -50,7 +48,6 @@ class CercaFilm extends Component {
                                 <SchedaCercaFilm film={filmDetail}/>
                             )}
                 </div>
-
             </div>
         )
     }

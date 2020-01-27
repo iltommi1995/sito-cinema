@@ -46,6 +46,14 @@
 
 /* PARTE DEL LOGIN */
 
+#dropdown-toggle-login {
+    color:#6996b3;
+}
+
+#dropdown-toggle-login:hover {
+    color:#fef1e7;
+}
+
 #dropdownLogin {
     background-color: #983232;
 }

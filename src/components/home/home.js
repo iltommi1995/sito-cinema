@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import "../../css/components/home/home.css";
 import {Button} from "reactstrap";
 import {Link} from "react-router-dom";
+import "../../css/components/home/home.css";
 
 class Home extends Component {
     render() {
@@ -10,7 +10,7 @@ class Home extends Component {
                 <h1>BENVENUTI DA SDV CINEMAS</h1>
                 <p>SDV Cinemas è una catena di multisala in espansione, con al momento due complessi, entrambi a Milano.
                     Con una distribuzione variegata SDV Cinemas cerca di accontentare tutti i tipi di spettatori.
-                    Presso il multisala SDV Cinema- Bicocca, si possono vedere i maggiori film del momento.
+                    Presso il multisala SDV Cinema- Bicocca, si possono vedere i grandi successi del momento.
                     SDV Cinema- Centrale invece può vantare una ricercata selezione di film d'essai.
                 </p>
                 <h2 className="acca2-home">VISITA LE NOSTRE SALE</h2>

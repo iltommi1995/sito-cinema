@@ -1,12 +1,12 @@
 import React, {Component} from "react";
 import {withRouter} from "react-router";
 import ArticoliData from "../../../data/articoli.json";
+
 import SchedaArticolo from "./schedaArticolo";
 
 class Articolo extends Component {
 
     constructor(props) {
-
         super(props);
     }
 
@@ -22,8 +22,6 @@ class Articolo extends Component {
             </div>
         )
     }
-
-
 }
 
 export default withRouter(Articolo);
