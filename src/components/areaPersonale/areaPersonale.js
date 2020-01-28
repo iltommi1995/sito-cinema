@@ -14,7 +14,7 @@ class AreaPersonale extends Component {
                             <div className="col-xl-2 col-lg-1">
                             </div>
                             <div className="col-xl-4 col-lg-5 col-md-6">
-                                <img src={UtenteDetail.img} className="img mario rossi"></img>
+                                <img src={UtenteDetail.img} className="img-area-personale" alt="img mario rossi"></img>
                             </div>
                             <div className="col-xl-5 col-lg-5 col-md-6 dati-utente">
                                 <h2 className="acca2">Bentornato {UtenteDetail.nome}</h2>

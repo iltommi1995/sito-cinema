@@ -21,6 +21,10 @@ const NavLogout = (props) => {
 
     const toggle = () => setIsOpen(!isOpen);
 
+    function chiudi () {
+        return setIsOpen(false);
+    };
+
     return (
         <div>
             <Navbar color="navbar fixed-top nav-sdv" light expand="md">
@@ -35,19 +39,19 @@ const NavLogout = (props) => {
                                 </DropdownToggle>
                                 <DropdownMenu right id="dropdown-menu">
                                     <DropdownItem className="dropdown-item">
-                                        <RRNavLink to="/orariFilmBicocca" className="link-nav">Milano Bicocca</RRNavLink>
+                                        <RRNavLink to="/orariFilmBicocca" onClick={chiudi} className="link-nav">Milano Bicocca</RRNavLink>
                                     </DropdownItem>
                                     <DropdownItem className="dropdown-item">
-                                        <RRNavLink to="/orariFilmCentrale" className="link-nav">Milano Centrale</RRNavLink>
+                                        <RRNavLink to="/orariFilmCentrale" onClick={chiudi} className="link-nav">Milano Centrale</RRNavLink>
                                     </DropdownItem>
 
                                 </DropdownMenu>
                             </UncontrolledDropdown>
                             <NavItem>
-                                <NavLink ><RRNavLink to="/cercaFilm" className="link-nav">Cerca film</RRNavLink></NavLink>
+                                <NavLink ><RRNavLink to="/cercaFilm" onClick={chiudi} className="link-nav">Cerca film</RRNavLink></NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink ><RRNavLink to="/blog"  className="link-nav">Blog</RRNavLink></NavLink>
+                                <NavLink ><RRNavLink to="/blog" onClick={chiudi} className="link-nav">Blog</RRNavLink></NavLink>
                             </NavItem>
                             {props.login.button}
                         </Nav>

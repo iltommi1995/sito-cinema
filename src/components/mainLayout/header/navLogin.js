@@ -21,6 +21,10 @@ const NavLogin = (props) => {
 
     const toggle = () => setIsOpen(!isOpen);
 
+    function chiudi () {
+        return setIsOpen(false);
+    };
+
     return (
         <div >
             <Navbar className="navbar fixed-top nav-sdv" light expand="md">
@@ -35,21 +39,21 @@ const NavLogin = (props) => {
                                 </DropdownToggle>
                                 <DropdownMenu right id="dropdown-menu">
                                     <DropdownItem className="dropdown-item">
-                                        <RRNavLink to="/orariFilmBicocca" className="link-nav">Milano Bicocca</RRNavLink>
+                                        <RRNavLink to="/orariFilmBicocca" onClick={chiudi} className="link-nav">Milano Bicocca</RRNavLink>
                                     </DropdownItem>
                                     <DropdownItem className="dropdown-item">
-                                        <RRNavLink to="/orariFilmCentrale" className="link-nav">Milano Centrale</RRNavLink>
+                                        <RRNavLink to="/orariFilmCentrale" onClick={chiudi} className="link-nav">Milano Centrale</RRNavLink>
                                     </DropdownItem>
                                 </DropdownMenu>
                             </UncontrolledDropdown>
                             <NavItem>
-                                <NavLink><RRNavLink to="/cercaFilm" className="link-nav">Cerca film</RRNavLink></NavLink>
+                                <NavLink><RRNavLink to="/cercaFilm" onClick={chiudi} className="link-nav">Cerca film</RRNavLink></NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink ><RRNavLink to="/blog"  className="link-nav">Blog</RRNavLink></NavLink>
+                                <NavLink ><RRNavLink to="/blog" onClick={chiudi}  className="link-nav">Blog</RRNavLink></NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink><RRNavLink to="/areaPersonale" className="link-nav">Area Personale</RRNavLink></NavLink>
+                                <NavLink><RRNavLink to="/areaPersonale" onClick={chiudi} className="link-nav">Area Personale</RRNavLink></NavLink>
                             </NavItem>
                             {props.login.button}
                         </Nav>
